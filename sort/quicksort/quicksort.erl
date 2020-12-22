@@ -19,3 +19,5 @@ lc_quicksort([Pivot|Rest]) ->
   lc_quicksort([Smaller || Smaller <- Rest, Smaller =< Pivot]) % || means given 
   ++ [Pivot] ++
   lc_quicksort([Larger || Larger <- Rest, Larger > Pivot]).
+
+%% to improve this further you would want to choose pivot more carefully

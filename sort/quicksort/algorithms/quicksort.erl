@@ -1,5 +1,5 @@
 -module(quicksort).
--export([quicksort/1, lc_quicksort/1]).
+-export([quicksort/1, sort_w_listcomp/1, sort_w_acc/1]).
 
 %% basic quicksort function
 quicksort([]) -> []; % base case 
@@ -14,11 +14,11 @@ partition(Pivot, [H|T], Lesser, Greater) ->
   end.
 
 %% quicksort build with list comprehensions rather than partition function
-lc_quicksort([]) -> [];
-lc_quicksort([Pivot|Tail]) ->
-  lc_quicksort([Lesser || Lesser <- Tail, Lesser =< Pivot]) % || means given 
+sort_w_listcomp([]) -> [];
+sort_w_listcomp([Pivot|Tail]) ->
+  sort_w_listcomp([Lesser || Lesser <- Tail, Lesser =< Pivot]) % || means given 
   ++ [Pivot] ++
-  lc_quicksort([Greater || Greater <- Tail, Greater > Pivot]).
+  sort_w_listcomp([Greater || Greater <- Tail, Greater > Pivot]).
 
 %% you could also avoid processing values equal to the pivot more than once
 %% we could make this more efficient by returning 3 lists: Lesser, equal and Greater

@@ -103,8 +103,8 @@ object quicksort {
       }
       // this isn't tail recursive because recursive call
       // can happen twice
-      if (start < j) sortRecursiveWithSwap(l, j)
-      if (i < end) sortRecursiveWithSwap((i, r))
+      if (start < j) sortRecursiveWithSwap(start, j)
+      if (i < end) sortRecursiveWithSwap((i, end))
     }
     
     sortRecursiveWithSwap(0, xs.length - 1)

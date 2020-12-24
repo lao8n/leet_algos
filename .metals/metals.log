@@ -449,3 +449,57 @@ something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/q
 2020.12.23 19:59:29 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
 2020.12.23 20:00:44 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
 2020.12.23 20:01:50 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 01:00:59 INFO  shutting down Metals
+2020.12.24 14:25:01 INFO  Started: Metals version 0.9.8 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client vscode.
+2020.12.24 14:25:02 INFO  time: initialize in 0.53s
+2020.12.24 14:25:03 WARN  Build server is not auto-connectable.
+2020.12.24 14:25:03 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.24 14:25:03 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 14:25:06 INFO  no build target: using presentation compiler with only scala-library
+2020.12.24 15:08:21 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.24 15:08:21 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.24 15:13:44 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordering[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 505, 505, 4110)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordering[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 505, 505, 522)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordering[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 505, 505, 515)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordering[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 505, 505, 516)
+2020.12.24 15:16:14 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+Dec 24, 2020 3:17:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 162
+2020.12.24 15:17:20 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 482, 482, 489)
+2020.12.24 15:17:37 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:17:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:18:09 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:18:17 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:20:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:20:49 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:20:58 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1109, 1109, 1123)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1109, 1109, 1116)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1109, 1109, 1116)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1109, 1109, 1116)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordering[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1135, 1135, 1153)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordering[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1135, 1135, 1146)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordering[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1135, 1135, 1146)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordering[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1135, 1135, 1146)
+2020.12.24 15:23:50 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:24:30 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:24:35 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.24 15:24:35 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.24 15:24:36 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordered[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1561, 1561, 1578)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordered[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1561, 1561, 1571)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordered[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1561, 1561, 1571)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in Ordered[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1561, 1561, 1571)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1577, 1577, 1591)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1577, 1577, 1584)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1577, 1577, 1584)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala in List[T]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/quicksort/algorithms/quicksort.scala, 1577, 1577, 1584)
+2020.12.24 15:25:23 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:26:12 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.24 15:26:22 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.24 15:26:22 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.24 15:26:28 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:26:36 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2020.12.24 15:38:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala

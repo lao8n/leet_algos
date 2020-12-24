@@ -7,29 +7,51 @@ object quicksort {
   
   // no need for partition function as can just use filter 
   // however it traverses the list three times for each filter
-  def sortRecursive(xs: List[A]): List[A] = {
+  def sortRecursiveInt(xs: List[Int]): List[Int] = {
     if(xs.length <= 1) xs 
     else {
       val pivot = xs(xs.length/2)
-      sortRecursive(xs filter (pivot >)) :::
+      sortRecursiveInt(xs filter (pivot >)) :::
       xs filter (pivot ==) ::
-      sortRecursive(xs filter (pivot <))
+      sortRecursiveInt(xs filter (pivot <))
     }
   }
 
   // traverse list once but re-check pivot unnecessarily
-  def sortRecursiveMatch(xs: List[A]): List[A] = {
+  def sortRecursiveIntMatch(xs: List[Int]): List[Int] = {
     xs match {
       case Nil => Nil
       case pivot :: tail => {
         val (lesser, greater) = tail.partition(_ < pivot)
-        sortRecursiveMatch(lesser) ::: pivot :: sortRecursiveMatch((greater))
+        sortRecursiveMatch(lesser) ::: pivot :: sortRecursiveMatch(greater)
       }
     }
   }
 
-  // traverse with foldLeft and acc
-  def sortRecursiveWithAcc(xs: List[A]): List[A] = {
+  // could use java's Ordering but it does not have a < sign
+  def sortRecursiveMatchImplicit[T](xs: List[T])(implicit ord: Ordering[T]): List[T] = {
+    xs match {
+      case Nil => Nil
+      case pivot :: tail => {
+        val (lesser, greater) = tail.partition(ord.lt(_, pivot))
+        sortRecursiveMatchImplicit[T](lesser) :: pivot :: sortRecursiveMatchImplicit[T](greater)
+      }
+    }
+  }
+
+  // better to use scala's Ordered which has a <
+  def sortRecursiveMatch[T <: Ordered[T]](xs: List[T]): List[T] = {
+    xs match {
+      case Nil => Nil
+      case pivot :: tail => {
+        val (lesser, greater) = tail.partition(_ < pivot)
+        sortRecursiveMatch(lesser) ::: pivot :: sortRecursiveMatch(greater)
+      }
+    }
+  }
+
+  // traverse with foldstart and acc
+  def sortRecursiveWithAcc[T <: Ordered[T]](xs: List[T]): List[T] = {
     xs match {
       case Nil => Nil
       case pivot :: tail => {
@@ -41,10 +63,10 @@ object quicksort {
       }
     }
 
-    def partitionWithAcc(xs: List[A]): (List[A], List[A], List[A]) = {
+    def partitionWithAcc[T <: Ordered[T]](xs: List[T]): (List[T], List[T], List[T]) = {
       val pivot = xs.head
 
-      xs.foldLeft(List[A](), List[A](), List[A]())((acc, element) => {
+      xs.foldstart(List[T](), List[T](), List[T]())((acc, element) => {
         val (lesser, equal, greater) = acc
 
         head match {
@@ -56,20 +78,20 @@ object quicksort {
     }
   }
 
-  def sortRecursiveInPlace(xs: List[A]): List[A] = {
-    def swap(i: A, j: A) {
+  def sortRecursiveInPlace[T <: Ordered[T]](xs: List[T]): List[T] = {
+    def swap(i: T, j: T) {
       val t = xs(i);
       xs(i) = xs(j);
       xs(j) = t;
     }
 
-    def sortRecursiveWithSwap(left: A, right: A) {
-      val pivot = xs((left + right) / 2)
-      val i = left;
-      val j = right;
+    def sortRecursiveWithSwap[T <: Ordered[T]](start: T, end: T) {
+      val pivot = xs((start + end) / 2)
+      val i = start;
+      val j = end;
       while (i <= j){
-        // keep going until find a number on the left
-        // that should be on the right and vice-versa
+        // keep going until find a number on the start
+        // that should be on the end and vice-versa
         // then swap them
         while (xs(i) < pivot) i += 1
         while (xs(j) > pivot) j -= 1
@@ -81,27 +103,27 @@ object quicksort {
       }
       // this isn't tail recursive because recursive call
       // can happen twice
-      if (left < j) sortRecursiveWithSwap(l, j)
-      if (i < right) sortRecursiveWithSwap((i, r))
+      if (start < j) sortRecursiveWithSwap(l, j)
+      if (i < end) sortRecursiveWithSwap((i, r))
     }
     
     sortRecursiveWithSwap(0, xs.length - 1)
   }
 
-  def sortTailRecursiveInPlace(xs: List[A]): List[A] = {
-    def swap(i: A, j: A) {
+  def sortTailRecursiveInPlace[T <: Ordered[T]](xs: List[T]): List[T] = {
+    def swap(i: T, j: T) {
       val t = xs(i);
       xs(i) = xs(j);
       xs(j) = t;
     }  
 
-    def swapInRange(left: A, right: A){
-      val pivot = xs((left + right) / 2)
-      var i = left;
-      var j = right;
+    def swapInRange[T <: Ordered[T]](start: T, end: T){
+      val pivot = xs((start + end) / 2)
+      var i = start;
+      var j = end;
       while (i <= j){
-        // keep going until find a number on the left
-        // that should be on the right and vice-versa
+        // keep going until find a number on the start
+        // that should be on the end and vice-versa
         // then swap them
         while (xs(i) < pivot) i += 1
         while (xs(j) > pivot) j -= 1
@@ -117,14 +139,14 @@ object quicksort {
     // we use less stack space (it is tail-recursive) at the cost of
     // using more heap space (because we have a list of segments)
     @tailrec
-    def sortTailRecursive(segments: List[(A, A)]) {
+    def sortTailRecursive[T <: Ordered[T]](segments: List[(T, T)]) {
       segments.head match {
-        case(left, right) => {
+        case(start, end) => {
           var newSegments = segments.tail 
-          swapInRange(left, right) match {
+          swapInRange(start, end) match {
             case(i, j) => {
-              if (left < j) newSegments = (l, j) :: newSegments
-              if (i < right) newSegments = (i, r) :: newSegments
+              if (start < j) newSegments = (l, j) :: newSegments
+              if (i < end) newSegments = (i, r) :: newSegments
             }
             if (!newSegments.isEmpty) sortTailRecursive(newSegments)
           }

@@ -506,3 +506,11 @@ something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/q
 2020.12.24 16:07:07 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
 2020.12.24 16:25:45 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
 2020.12.25 01:09:41 INFO  shutting down Metals
+2021.01.04 22:05:01 INFO  Started: Metals version 0.9.8 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client vscode.
+2021.01.04 22:05:01 INFO  time: initialize in 0.5s
+2021.01.04 22:05:02 WARN  Build server is not auto-connectable.
+2021.01.04 22:05:02 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 22:05:02 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quicksort\algorithms\quicksort.scala
+2021.01.04 22:05:05 INFO  no build target: using presentation compiler with only scala-library
+Jan 04, 2021 10:06:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification

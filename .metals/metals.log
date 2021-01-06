@@ -514,3 +514,91 @@ something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/sort/q
 2021.01.04 22:05:05 INFO  no build target: using presentation compiler with only scala-library
 Jan 04, 2021 10:06:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2021.01.04 22:39:43 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 22:41:16 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 22:41:38 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 22:42:04 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 22:42:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+Jan 04, 2021 10:42:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 173
+2021.01.04 22:43:07 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 22:46:03 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 424, 424, 439)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 424, 424, 432)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 424, 424, 433)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 424, 424, 434)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 424, 424, 434)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 424, 424, 434)
+2021.01.04 22:48:04 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 431)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 424)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 425)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 426)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 425)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 431)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 426)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 426)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in Array[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 416, 416, 426)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 556, 556, 572)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 556, 556, 565)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 556, 556, 572)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 556, 556, 565)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[<error>]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 556, 556, 566)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 556, 556, 567)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 556, 556, 567)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 556, 556, 567)
+2021.01.04 23:00:33 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:01:55 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:02:28 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:02:31 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:02:31 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:02:31 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:02:31 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:02:33 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:02:33 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:02:37 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:04:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:05:58 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:06:03 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:06:53 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:07:16 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:07:26 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:08:26 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:09:11 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:22:44 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:22:44 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:24:08 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+Jan 04, 2021 11:24:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2694
+2021.01.04 23:25:39 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:25:44 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:25:49 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:25:55 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:26:02 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:26:10 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:26:21 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:27:24 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:27:32 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:28:08 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:28:20 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:28:34 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:28:34 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:28:35 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.04 23:28:44 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.04 23:28:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala in scala.collection.immutable.IntMap[Int]RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/data_structures/hash/applied/two_sum/two_sum.scala, 992, 992, 1003)
+2021.01.05 00:13:26 INFO  shutting down Metals
+2021.01.05 10:41:14 INFO  Started: Metals version 0.9.8 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client vscode.
+2021.01.05 10:41:15 INFO  time: initialize in 0.57s
+2021.01.05 10:41:15 WARN  Build server is not auto-connectable.
+2021.01.05 10:41:15 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.05 10:41:15 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.05 10:41:18 INFO  no build target: using presentation compiler with only scala-library
+2021.01.05 17:31:59 INFO  shutting down Metals
+2021.01.05 17:42:49 INFO  Started: Metals version 0.9.8 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client vscode.
+2021.01.05 17:42:50 INFO  time: initialize in 0.53s
+2021.01.05 17:42:50 WARN  Build server is not auto-connectable.
+2021.01.05 17:42:50 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2021.01.05 17:42:50 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\data_structures\hash\applied\two_sum\two_sum.scala
+2021.01.05 17:42:53 INFO  no build target: using presentation compiler with only scala-library
+2021.01.05 17:42:53 INFO  shutting down Metals

@@ -39,3 +39,20 @@ class Solution {
         return longestSubstring;
     }
 }
+
+public Solution{
+    public int lengthOfLongestSubstring(String s){
+        int longestSubstring = 0;
+        Map<Character, Integer> substringMap = new HashMap<>();
+
+        for(int substringStart = 0, substringFinish = 0; substringFinish < s.length(); substringFinish++){
+            char c = s.charAt(substringFinish);
+            if(substringMap.contains(c)){
+                substringStart = Math.max(substringMap.get(c), substringStart);
+            }
+            longestSubstring = Math.max(longestSubstring, substringFinish - substringStart + 1);
+            substringMap.put(c, substringFinish + 1);
+        }
+        return longestSubstring;
+    }
+}

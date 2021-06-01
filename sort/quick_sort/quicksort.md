@@ -8,7 +8,6 @@ quicksort algorithm can be summarised as:
 1. choose the pivot
 2. partition elements as <, = or > the pivot
 3. recursively sort the partitions
-4. join the sorted partitions together
 
 complexity
 for good pivots we have O(n logn) but potentialy O(n^2) for the worst pivots equivalent to bubble

@@ -6,18 +6,18 @@ public class SortRecursiveInPlace<T extends Comparable<? super T>>{
   }
 
   public void sortWithTempArrays(T[] xs){
-    if(xs.length() < 2){
+    if(xs.length < 2){
       return;
     }
-    int mid = xs.length() / 2;
+    int mid = xs.length / 2;
     int[] leftTemp = new int[mid];
-    int[] rightTemp = new int[xs.length() - mid];
+    int[] rightTemp = new int[xs.length - mid];
 
     // copy into leftTemp
     for(int i = 0; i < mid; i++){
       leftTemp[i] = xs[i];
     }
-    for(int i = mid; i < xs.length(); i++){
+    for(int i = mid; i < xs.length; i++){
       rightTemp[i - mid] = xs[i];
     }
 
@@ -29,7 +29,7 @@ public class SortRecursiveInPlace<T extends Comparable<? super T>>{
 
   private void merge(int[] xs, int[] leftTemp, int[] rightTemp){
     int xsIndex, leftIndex, rightIndex = 0;
-    while(leftIndex < leftTemp.length() && rightIndex < rightTemp.length()){
+    while(leftIndex < leftTemp.length && rightIndex < rightTemp.length){
       if(leftTemp[leftIndex] <= rightTemp[rightIndex]){
         xs[xsIndex++] = leftTemp[leftIndex++];
       }
@@ -37,17 +37,17 @@ public class SortRecursiveInPlace<T extends Comparable<? super T>>{
         xs[xsIndex++] = rightTemp[rightIndex++];
       }
     }
-    while(leftIndex < leftTemp.length()){
+    while(leftIndex < leftTemp.length){
       xs[xsIndex++] = leftTemp[leftIndex++];
     }
-    while(rightIndex < rightTemp.length()){
+    while(rightIndex < rightTemp.length){
       xs[xsIndex++] = rightTemp[rightIndex++];
     }
   }
 
-  // TODO: non-trivial
+  // TODO: in-place
   public void sortInPlace(T[] xs, int start, int end){
-    if(xs.length() < 2){
+    if(xs.length < 2){
       return;
     }
     int midpoint = (end - start) / 2;

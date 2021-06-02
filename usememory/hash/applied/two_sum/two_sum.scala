@@ -6,7 +6,7 @@ object Solution {
     for (i <- nums.indices) {
       val complement = target - nums(i)
       if (numsMap.contains(complement))
-        return Array(map(complement), i)
+        return Array(numsMap(complement), i)
       else
         numsMap.put(nums(i), i)
     }
@@ -16,10 +16,12 @@ object Solution {
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     nums.zipWithIndex
       .foldLeft(Map[Int, Int]()){
-        case (numsMap, numsTuple @(x, complementIndex)) => numsMap.get(target - x)
-                                                    .map(index => return Array(index, complementIndex))
-                                                    .getOrElse(numsMap + numsTuple)
+        case (numsMap, numsTuple @(x, complementIndex)) => 
+          numsMap.get(target - x)
+                 .map(index => return Array(index, complementIndex))
+                 .getOrElse(numsMap + numsTuple)
       }
+  }
 
   import scala.collection.immutable.IntMap
   // recursive hash map
@@ -34,6 +36,4 @@ object Solution {
     }
     recursiveTwoSum(IntMap(), 0)
   }
-
-
 }

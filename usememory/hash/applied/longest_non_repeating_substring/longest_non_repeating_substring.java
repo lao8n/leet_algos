@@ -20,8 +20,8 @@ class Solution {
             // c already exists so we jump substringStart to where that last 
             // instance was
             if(substringMap.containsKey(c)){
-                int nextCIndex = substringMap.get(c);
-                while(substringStart <= nextCIndex){
+                int lastCIndex = substringMap.get(c);
+                while(substringStart <= lastCIndex){
                     char k = s.charAt(substringStart);
                     substringMap.remove(k);
                     substringStart++;

@@ -23,17 +23,16 @@ object Solution {
       }
   }
 
-  import scala.collection.immutable.IntMap
-  // recursive hash map
+  import scala.collection.immutable.HashMap
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     @annotation.tailrec
-    def recursiveTwoSum(numsMap: IntMap[Int], i: Int): Array[Int] = {
+    def recursiveTwoSum(map: HashMap[Int, Int], i: Int): Array[Int] = {
       val complement = target - nums(i)
-      numsMap.find(_._1 == complement) match {
-        case Some((_, complementIndex)) => Array(complementIndex, i)
-        case None => recursiveTwoSum(numsMap + (nums(i) -> i), i + 1)
+      map.get(complement) match {
+        case Some(complementIndex) => Array(complementIndex, i)
+        case None => recursiveTwoSum(map + (nums(i) -> i), i + 1)
       }
     }
-    recursiveTwoSum(IntMap(), 0)
+    recursiveTwoSum(HashMap(), 0)
   }
 }

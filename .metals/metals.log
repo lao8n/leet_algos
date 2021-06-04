@@ -26105,3 +26105,27 @@ Jun 03, 2021 6:37:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 778
 Jun 03, 2021 9:01:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 799
+[0m2021.06.03 22:24:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\hash\applied\two_sum\three_sum.scala[0m
+Jun 03, 2021 11:52:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 869
+[0m2021.06.04 00:41:21 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\hash\applied\two_sum\three_sum.scala[0m
+[0m2021.06.04 00:41:27 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\two_pointers\two_pointers.scala[0m
+[0m2021.06.04 01:05:26 INFO  shutting down Metals[0m
+[0m2021.06.04 11:24:20 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.04 11:24:25 INFO  time: initialize in 5.32s[0m
+[0m2021.06.04 11:24:25 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.04 11:24:25 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.04 11:24:55 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\hash\applied\two_sum_hash\three_sum.scala[0m
+[0m2021.06.04 11:24:58 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.04 11:25:00 INFO  time: code lens generation in 5.55s[0m
+[0m2021.06.04 11:35:04 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\two_sum_two_pointers\two_pointers.scala[0m
+[0m2021.06.04 11:46:22 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\three_sum.scala[0m
+[0m2021.06.04 19:10:24 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\two_sum.scala[0m
+[0m2021.06.04 19:10:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\two_sum_two_pointers\two_pointers.scala[0m
+[0m2021.06.04 19:49:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\two_sum_two_pointers\three_sum_closest.scala[0m
+[0m2021.06.04 20:00:13 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\two_sum_two_pointers\three_sum_closest.scala[0m
+[0m2021.06.04 20:11:49 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\two_sum_two_pointers\two_pointers.scala[0m
+[0m2021.06.04 20:11:52 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\two_sum.scala[0m
+[0m2021.06.04 20:12:03 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\two_sum.scala[0m
+[0m2021.06.04 21:11:16 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\three_sum.scala[0m
+[0m2021.06.04 21:50:42 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\four_sum.scala[0m

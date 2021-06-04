@@ -26129,3 +26129,14 @@ WARNING: Unmatched cancel notification for request id 869
 [0m2021.06.04 20:12:03 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\two_sum.scala[0m
 [0m2021.06.04 21:11:16 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\three_sum.scala[0m
 [0m2021.06.04 21:50:42 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\four_sum.scala[0m
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+[0m2021.06.04 22:34:30 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\four_sum.scala[0m

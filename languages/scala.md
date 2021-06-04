@@ -32,3 +32,5 @@ Scala language
 `.sorted` vs `sortWith(_>_)` 
 
 `numsMap + (num -> numIndex)` is deprecated
+
+`new ArrayList<>(setOfSomething);` convert set to list

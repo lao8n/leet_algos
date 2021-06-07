@@ -5,6 +5,7 @@ Scala coding choices
 * Can we use memory to save time e.g. Maps
 * Mutable data  structures or recursion with immutable data structures
 * Do we need all the solutions or the first solution (if former need accumulator)
+* Rather than foldleft is there a way to aggregate with map and group by instead?
 
 Scala language
 `:::` vs `::` vs `++` vs `add`

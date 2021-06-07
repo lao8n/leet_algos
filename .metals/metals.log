@@ -26140,3 +26140,30 @@ Caused by: java.lang.InterruptedException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	... 2 more
 [0m2021.06.04 22:34:30 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\four_sum.scala[0m
+[0m2021.06.04 23:33:19 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\three_sum.scala[0m
+[0m2021.06.05 00:01:31 INFO  shutting down Metals[0m
+[0m2021.06.05 17:48:56 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.05 17:49:02 INFO  time: initialize in 5.36s[0m
+[0m2021.06.05 17:49:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.05 17:49:02 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.05 17:49:02 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_anagrams\group_anagrams.scala[0m
+[0m2021.06.05 17:49:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.05 17:49:07 INFO  time: code lens generation in 4.55s[0m
+[0m2021.06.05 18:02:46 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\four_sum.scala[0m
+[0m2021.06.05 18:02:47 INFO  time: code lens generation in 1.03s[0m
+[0m2021.06.05 18:13:32 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\alphabet_count\group_anagrams.scala[0m
+[0m2021.06.05 19:08:40 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\alphabet_count\group_anagrams.scala[0m
+[0m2021.06.05 19:12:11 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\alphabet_count\group_anagrams.scala[0m
+Jun 05, 2021 7:15:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 177
+[0m2021.06.05 19:15:47 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\sorted_key\group_anagrams.scala[0m
+[0m2021.06.05 19:18:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\sorted_key\group_anagrams.scala[0m
+[0m2021.06.05 19:59:01 INFO  shutting down Metals[0m
+[0m2021.06.06 17:48:37 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.06 17:48:42 INFO  time: initialize in 5.56s[0m
+[0m2021.06.06 17:48:42 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.06 17:48:42 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.06 17:48:42 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\sorted_key\group_anagrams.scala[0m
+[0m2021.06.06 17:48:47 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.06 17:48:50 INFO  time: code lens generation in 6.84s[0m
+[0m2021.06.06 20:29:12 INFO  shutting down Metals[0m

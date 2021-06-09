@@ -26179,3 +26179,45 @@ WARNING: Unmatched cancel notification for request id 177
 Jun 07, 2021 11:07:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 19
 [0m2021.06.07 18:38:31 INFO  shutting down Metals[0m
+[0m2021.06.07 23:02:40 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.07 23:02:46 INFO  time: initialize in 5.34s[0m
+[0m2021.06.07 23:02:46 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.07 23:02:46 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.07 23:02:46 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\start_and_end_pointers\longest_non_repeating_substring.scala[0m
+[0m2021.06.07 23:02:49 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.07 23:02:52 INFO  time: code lens generation in 5.7s[0m
+Jun 07, 2021 11:03:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+[0m2021.06.07 23:03:31 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\sliding_window\longest_non_repeating_substring.scala[0m
+[0m2021.06.07 23:46:20 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\recursion\applied\is_palindrome\is_palindrome.scala[0m
+[0m2021.06.07 23:46:40 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\recursion\applied\two_pointers\is_palindrome.scala[0m
+[0m2021.06.07 23:48:09 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\recursion\applied\two_pointers\is_palindrome.scala[0m
+Jun 08, 2021 1:00:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+[0m2021.06.08 01:01:19 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\rolling_leaders\majority_element.scala[0m
+[0m2021.06.08 01:03:21 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\three_sum.scala[0m
+Jun 08, 2021 1:04:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 129
+Jun 08, 2021 1:04:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 136
+[0m2021.06.08 01:05:02 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\greedy\rolling_leaders\majority_element.scala[0m
+[0m2021.06.08 01:05:11 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\greedy\applied\rolling_leaders\majority_element.scala[0m
+Jun 08, 2021 1:07:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 141
+[0m2021.06.08 01:07:30 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\rolling_leaders\majority_element.scala[0m
+[0m2021.06.08 01:12:36 INFO  shutting down Metals[0m
+[0m2021.06.08 13:32:34 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.08 13:32:39 INFO  time: initialize in 5.3s[0m
+[0m2021.06.08 13:32:39 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.08 13:32:39 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.08 13:32:39 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\rolling_leaders\majority_element.scala[0m
+[0m2021.06.08 13:32:42 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.08 13:32:45 INFO  time: code lens generation in 5.42s[0m
+[0m2021.06.09 01:27:06 INFO  shutting down Metals[0m
+[0m2021.06.09 17:48:48 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.09 17:48:53 INFO  time: initialize in 5.37s[0m
+[0m2021.06.09 17:48:53 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.09 17:48:53 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.09 17:48:53 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\rolling_leaders\majority_element.scala[0m
+[0m2021.06.09 17:48:57 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.09 17:49:00 INFO  time: code lens generation in 5.84s[0m

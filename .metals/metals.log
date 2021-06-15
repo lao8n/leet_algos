@@ -26244,3 +26244,37 @@ WARNING: Unmatched cancel notification for request id 141
 [0m2021.06.12 16:18:50 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\unique_count\missing_number.scala[0m
 [0m2021.06.12 16:18:53 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\unique_count\missing_number.scala[0m
 [0m2021.06.12 16:22:59 INFO  shutting down Metals[0m
+[0m2021.06.14 17:12:47 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.14 17:12:52 INFO  time: initialize in 5.37s[0m
+[0m2021.06.14 17:12:52 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.14 17:12:52 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.14 17:12:52 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\unique_count\missing_number.scala[0m
+[0m2021.06.14 17:12:52 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\sliding_window\longest_non_repeating_substring.scala[0m
+[0m2021.06.14 17:12:56 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.14 17:12:59 INFO  time: code lens generation in 5.89s[0m
+[0m2021.06.14 17:49:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\three_sum.scala[0m
+[0m2021.06.14 17:50:29 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\four_sum.scala[0m
+[0m2021.06.14 17:50:37 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\two_sum.scala[0m
+[0m2021.06.14 17:50:44 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\recursion\applied\two_pointers\is_palindrome.scala[0m
+[0m2021.06.14 17:50:47 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\transform_data\applied\spiral_matrix\spiral_matrix.scala[0m
+Jun 14, 2021 5:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+[0m2021.06.14 17:50:56 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\applied\sorted_key\group_anagrams.scala[0m
+[0m2021.06.14 17:51:32 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\firstUniqueChar.scala[0m
+[0m2021.06.14 17:51:34 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\firstUniqueChar.scala[0m
+[0m2021.06.14 17:51:40 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\four_sum.scala[0m
+[0m2021.06.14 17:52:29 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\two_sum_hash\two_sum.scala[0m
+[0m2021.06.14 17:52:48 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\three_sum.scala[0m
+[0m2021.06.14 17:57:36 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\sliding_window_map_index\longest_non_repeating_substring.scala[0m
+[0m2021.06.15 00:27:22 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.15 00:27:28 INFO  time: initialize in 5.82s[0m
+[0m2021.06.15 00:27:28 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.15 00:27:28 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.15 00:27:28 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\sliding_window_map_index\longest_non_repeating_substring.scala[0m
+[0m2021.06.15 00:27:32 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.15 00:27:35 INFO  time: code lens generation in 6.82s[0m
+[0m2021.06.15 00:27:35 INFO  time: code lens generation in 6.86s[0m
+[0m2021.06.15 00:53:33 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\firstUniqueChar.scala[0m
+[0m2021.06.15 00:53:39 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\three_sum.scala[0m
+[0m2021.06.15 01:40:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_count\sub_array_sum.scala[0m
+[0m2021.06.15 01:41:00 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_count\sub_array_sum.scala[0m

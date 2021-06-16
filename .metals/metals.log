@@ -26278,3 +26278,31 @@ WARNING: Unmatched cancel notification for request id 41
 [0m2021.06.15 00:53:39 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\three_sum.scala[0m
 [0m2021.06.15 01:40:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_count\sub_array_sum.scala[0m
 [0m2021.06.15 01:41:00 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_count\sub_array_sum.scala[0m
+[0m2021.06.15 01:42:33 INFO  shutting down Metals[0m
+[0m2021.06.15 16:11:47 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.15 16:11:52 INFO  time: initialize in 5.38s[0m
+[0m2021.06.15 16:11:53 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.15 16:11:53 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.15 16:11:53 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_count\sub_array_sum.scala[0m
+[0m2021.06.15 16:11:53 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\insertion_sort\algorithms\insertion.scala[0m
+[0m2021.06.15 16:11:56 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jun 15, 2021 4:11:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+[0m2021.06.15 16:11:56 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\merge_sort\algorithms\mergesort.scala[0m
+[0m2021.06.15 16:11:59 INFO  time: code lens generation in 2.58s[0m
+[0m2021.06.15 16:11:59 INFO  time: code lens generation in 6.03s[0m
+[0m2021.06.15 16:11:59 INFO  time: code lens generation in 6.05s[0m
+[0m2021.06.15 16:12:14 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quick_sort\algorithms\quicksort.scala[0m
+[0m2021.06.15 18:45:43 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\recursion\applied\two_pointers\is_palindrome.scala[0m
+[0m2021.06.15 18:45:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\sort\quick_sort\algorithms\quicksort.scala[0m
+[0m2021.06.15 18:54:33 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\recursion\applied\two_pointers\is_palindrome.scala[0m
+[0m2021.06.15 18:54:49 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\firstUniqueChar.scala[0m
+[0m2021.06.15 18:54:52 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\unique_count\missing_number.scala[0m
+[0m2021.06.15 18:54:58 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\two_sum.scala[0m
+[0m2021.06.15 18:55:22 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\three_sum.scala[0m
+[0m2021.06.15 18:55:30 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\four_sum.scala[0m
+[0m2021.06.15 19:07:03 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\recursion\applied\two_pointers\sorted_squares.scala[0m
+[0m2021.06.15 19:07:04 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\recursion\applied\two_pointers\sorted_squares.scala[0m
+[0m2021.06.15 19:52:22 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\is_valid.scala[0m
+[0m2021.06.15 19:52:25 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\is_valid.scala[0m
+[0m2021.06.16 01:51:25 INFO  shutting down Metals[0m

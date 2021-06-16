@@ -20,6 +20,7 @@ object Solution {
                                 row.zipWithIndex.map{case (v,colIndex) => (rowIndex, colIndex, v)}}
                           .filter{ case (_, _, v) => v != 0}
                           .groupBy{ case (x, y, v) => x }
+        // could potentially optimise that you pick the smaller map to foldleft over 
         mat1Map.foldLeft(Array.fill[Int](mat1.length, mat2(0).length)(0)){
             case (solution, (r1, row1)) => 
                 row1.foreach{

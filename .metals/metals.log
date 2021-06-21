@@ -26339,3 +26339,32 @@ WARNING: Unmatched cancel notification for request id 72
 [0m2021.06.17 14:35:20 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\multiple_passes\applied\array_min_max\trap_water.scala[0m
 [0m2021.06.17 14:37:57 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\trap_water.scala[0m
 [0m2021.06.17 16:25:56 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\trap_water.scala[0m
+[0m2021.06.17 16:27:55 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\sorted_squares.scala[0m
+Jun 17, 2021 4:28:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+[0m2021.06.17 16:28:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\array_value\trap_water.scala[0m
+Jun 17, 2021 4:29:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 161
+[0m2021.06.17 16:29:38 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\array_leaders\trap_water.scala[0m
+Jun 17, 2021 4:29:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 167
+[0m2021.06.17 16:29:55 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\array_minmax\trap_water.scala[0m
+[0m2021.06.17 16:30:10 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\longest_non_repeating_substring.scala[0m
+Jun 17, 2021 4:33:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 194
+[0m2021.06.17 16:33:00 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\applied\is_valid.scala[0m
+[0m2021.06.17 16:33:00 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\applied\trap_water.scala[0m
+[0m2021.06.17 16:35:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\map\longest_non_repeating_substring.scala[0m
+[0m2021.06.17 16:36:25 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\is_palindrome.scala[0m
+Jun 17, 2021 4:36:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 247
+[0m2021.06.17 16:36:59 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\recursion\sorted_squares.scala[0m
+Jun 17, 2021 4:37:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 255
+[0m2021.06.17 16:37:51 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\recursion\trap_water.scala[0m
+[0m2021.06.17 16:39:43 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\recursion\trap_water.scala[0m
+[0m2021.06.17 16:42:17 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\recursion\trap_water.scala[0m
+[0m2021.06.17 16:42:35 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\two_pointers\applied\recursion\trap_water.scala[0m
+Jun 17, 2021 5:36:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 462
+[0m2021.06.17 23:08:35 INFO  shutting down Metals[0m

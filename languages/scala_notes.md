@@ -37,3 +37,5 @@ does foldLeft only work with mutable data structures? what is it equivalent to?
 `numsMap + (num -> numIndex)` is deprecated
 
 `new ArrayList<>(setOfSomething);` convert set to list
+
+`until` vs `to` until is <, to is <=

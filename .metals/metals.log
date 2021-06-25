@@ -28634,3 +28634,8 @@ file%3A%2F%2F%2FC%3A%2FUsers%2Flao8n%2FOneDrive%2FDocuments%2Fleet_algs%2Fgraph%
 [0m2021.06.24 21:11:02 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
 [0m2021.06.24 21:11:06 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
 [0m2021.06.24 21:11:08 INFO  time: code lens generation in 5.29s[0m
+[0m2021.06.24 22:12:00 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\clone_graph.scala[0m
+[0m2021.06.24 22:12:16 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\is_same_tree.scala[0m
+[0m2021.06.24 22:12:33 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\lowest_common_ancestor.scala[0m
+[0m2021.06.24 22:12:34 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\lowest_common_ancestor.scala[0m
+[0m2021.06.25 00:58:09 INFO  shutting down Metals[0m

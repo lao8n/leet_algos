@@ -28639,3 +28639,63 @@ file%3A%2F%2F%2FC%3A%2FUsers%2Flao8n%2FOneDrive%2FDocuments%2Fleet_algs%2Fgraph%
 [0m2021.06.24 22:12:33 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\lowest_common_ancestor.scala[0m
 [0m2021.06.24 22:12:34 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\lowest_common_ancestor.scala[0m
 [0m2021.06.25 00:58:09 INFO  shutting down Metals[0m
+[0m2021.06.25 18:02:45 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.1.[0m
+[0m2021.06.25 18:02:50 INFO  time: initialize in 5.44s[0m
+[0m2021.06.25 18:02:50 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.25 18:02:50 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.25 18:02:50 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\lowest_common_ancestor.scala[0m
+[0m2021.06.25 18:02:50 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\is_same_tree.scala[0m
+[0m2021.06.25 18:02:54 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jun 25, 2021 6:02:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+[0m2021.06.25 18:02:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\max_depth.scala[0m
+[0m2021.06.25 18:02:56 INFO  time: code lens generation in 2.18s[0m
+[0m2021.06.25 18:02:56 INFO  time: code lens generation in 5.47s[0m
+[0m2021.06.25 18:03:09 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
+[0m2021.06.25 19:42:17 INFO  shutting down Metals[0m
+[0m2021.06.28 12:11:17 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.1.[0m
+[0m2021.06.28 12:11:22 INFO  time: initialize in 5.34s[0m
+[0m2021.06.28 12:11:22 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.28 12:11:22 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.28 12:11:22 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
+[0m2021.06.28 12:11:26 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.28 12:11:29 INFO  time: code lens generation in 6.08s[0m
+[0m2021.06.28 12:12:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\peeling_onion\applied\longest_increasing_path.scala[0m
+Jun 28, 2021 12:12:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 48 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 48 is not a valid line number, allowed [0..0]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 48 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jun 28, 2021 12:12:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+[0m2021.06.28 13:15:28 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
+[0m2021.06.28 13:15:29 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
+[0m2021.06.28 18:53:23 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m

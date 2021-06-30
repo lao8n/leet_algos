@@ -28699,3 +28699,9 @@ WARNING: Unmatched cancel notification for request id 14
 [0m2021.06.28 13:15:28 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
 [0m2021.06.28 13:15:29 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
 [0m2021.06.28 18:53:23 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
+[0m2021.06.28 21:48:27 INFO  shutting down Metals[0m
+[0m2021.06.29 15:50:51 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.1.[0m
+[0m2021.06.29 15:50:57 INFO  time: initialize in 5.32s[0m
+[0m2021.06.29 15:50:57 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.29 15:50:57 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.29 22:19:14 INFO  shutting down Metals[0m

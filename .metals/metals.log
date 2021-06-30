@@ -28705,3 +28705,57 @@ WARNING: Unmatched cancel notification for request id 14
 [0m2021.06.29 15:50:57 WARN  Build server is not auto-connectable.[0m
 [0m2021.06.29 15:50:57 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 [0m2021.06.29 22:19:14 INFO  shutting down Metals[0m
+[0m2021.06.30 14:15:00 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.1.[0m
+[0m2021.06.30 14:15:01 INFO  time: initialize in 1.2s[0m
+[0m2021.06.30 14:15:01 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.30 14:15:01 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.06.30 14:15:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\letter_combinations.scala[0m
+[0m2021.06.30 14:15:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.30 14:15:07 INFO  time: code lens generation in 6.13s[0m
+[0m2021.06.30 14:48:35 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\applied\reverse_list.scala[0m
+[0m2021.06.30 14:48:38 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\applied\letter_combinations.scala[0m
+[0m2021.06.30 14:52:03 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\applied\reverse_list.scala[0m
+[0m2021.06.30 14:56:51 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
+[0m2021.06.30 14:56:53 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\add_two_numbers.scala[0m
+[0m2021.06.30 14:56:58 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\merge_two_lists.scala[0m
+[0m2021.06.30 14:57:12 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
+[0m2021.06.30 14:57:21 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\is_same_tree.scala[0m
+[0m2021.06.30 15:04:20 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 15:05:05 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 15:06:44 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
+[0m2021.06.30 15:08:22 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
+[0m2021.06.30 15:09:41 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 15:09:43 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 15:10:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\clone_graph.scala[0m
+Jun 30, 2021 3:10:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 138
+[0m2021.06.30 15:10:04 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
+[0m2021.06.30 15:11:25 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear_acc\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 15:11:28 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear_acc\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 15:12:09 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
+[0m2021.06.30 15:12:09 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\clone_graph.scala[0m
+Jun 30, 2021 3:12:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 177
+[0m2021.06.30 15:12:49 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
+Jun 30, 2021 3:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+Jun 30, 2021 3:13:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 198
+Jun 30, 2021 3:13:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 210
+Jun 30, 2021 3:13:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+[0m2021.06.30 15:14:10 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 15:14:15 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 16:36:16 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\four_sum.scala[0m
+Jun 30, 2021 5:22:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+[0m2021.06.30 17:22:25 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear_acc\applied\generate_parenthesis.scala[0m
+[0m2021.06.30 17:22:29 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\add_two_numbers.scala[0m
+[0m2021.06.30 17:22:31 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\merge_two_lists.scala[0m
+Jun 30, 2021 5:22:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 303
+[0m2021.06.30 17:22:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\combination_sum.scala[0m
+[0m2021.06.30 17:22:56 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\combination_sum.scala[0m
+Jul 01, 2021 12:18:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 342

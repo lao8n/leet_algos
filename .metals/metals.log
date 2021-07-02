@@ -28759,3 +28759,28 @@ WARNING: Unmatched cancel notification for request id 303
 [0m2021.06.30 17:22:56 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\combination_sum.scala[0m
 Jul 01, 2021 12:18:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 342
+[0m2021.07.01 00:18:43 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\permute.scala[0m
+[0m2021.07.01 00:32:48 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\permute.scala[0m
+Jul 01, 2021 12:32:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 372
+Jul 01, 2021 12:32:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 377
+[0m2021.07.01 00:33:04 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\add_two_numbers.scala[0m
+Jul 01, 2021 12:33:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 392
+[0m2021.07.01 00:54:29 INFO  shutting down Metals[0m
+[0m2021.07.02 13:59:56 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.02 14:00:01 INFO  time: initialize in 5.32s[0m
+[0m2021.07.02 14:00:01 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.02 14:00:01 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.02 14:00:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\combination_sum.scala[0m
+[0m2021.07.02 14:00:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jul 02, 2021 2:00:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.02 14:00:07 INFO  time: code lens generation in 5.7s[0m
+Jul 02, 2021 2:00:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.02 14:00:15 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\io\ubs_example.scala[0m
+[0m2021.07.02 14:00:20 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\io\ubs_example.scala[0m
+[0m2021.07.02 14:03:53 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\io\ubs_example.scala[0m
+[0m2021.07.02 14:03:55 INFO  shutting down Metals[0m

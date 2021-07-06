@@ -200,3 +200,17 @@ map contains 2
 // links from the map to the keys stored in it - so if no reference to key then
 // key and value entry in hashmap is lost
 ```
+
+### IO
+```scala
+val file = Source.fromFile("src/test/.../x.txt")
+for (line <- file.getLines()){
+  println(line)
+}
+file.close()
+// or 
+val reader = file.getLines() // returns Iterator[String]
+reader.hasNext
+reader.next()
+reader.toList
+```

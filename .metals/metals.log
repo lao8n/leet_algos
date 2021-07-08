@@ -28953,3 +28953,28 @@ WARNING: Unmatched cancel notification for request id 23
 [0m2021.07.06 22:33:14 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\subsets.scala[0m
 Jul 06, 2021 11:24:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 51
+[0m2021.07.06 23:25:00 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\transform_data\applied\reverse\spiral_matrix.scala[0m
+[0m2021.07.06 23:29:55 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\combination_sum.scala[0m
+[0m2021.07.06 23:29:57 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\add_two_numbers.scala[0m
+[0m2021.07.06 23:30:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\merge_two_lists.scala[0m
+[0m2021.07.06 23:30:01 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\permute.scala[0m
+[0m2021.07.06 23:30:47 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\grid\applied\exist.scala[0m
+[0m2021.07.06 23:30:48 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\grid\applied\exist.scala[0m
+[0m2021.07.07 00:03:05 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\is_anagram.scala[0m
+[0m2021.07.07 00:03:06 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\is_anagram.scala[0m
+[0m2021.07.07 00:10:23 INFO  shutting down Metals[0m
+[0m2021.07.07 09:54:07 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.07 09:54:13 INFO  time: initialize in 5.64s[0m
+[0m2021.07.07 09:54:13 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.07 09:54:13 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.07 09:54:13 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\is_anagram.scala[0m
+[0m2021.07.07 09:54:13 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\dynamic_programming\transform_data\applied\reverse\spiral_matrix.scala[0m
+[0m2021.07.07 09:54:17 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.07 09:54:20 INFO  time: code lens generation in 6.41s[0m
+[0m2021.07.08 23:26:11 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.08 23:26:18 INFO  time: initialize in 6.6s[0m
+[0m2021.07.08 23:26:18 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.08 23:26:18 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.08 23:26:18 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\queue\applied\moving_average.scala[0m
+[0m2021.07.08 23:26:21 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.08 23:26:22 INFO  time: code lens generation in 3.67s[0m

@@ -28978,3 +28978,205 @@ WARNING: Unmatched cancel notification for request id 51
 [0m2021.07.08 23:26:18 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\queue\applied\moving_average.scala[0m
 [0m2021.07.08 23:26:21 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
 [0m2021.07.08 23:26:22 INFO  time: code lens generation in 3.67s[0m
+Jul 09, 2021 12:44:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+[0m2021.07.09 00:44:20 INFO  shutting down Metals[0m
+[0m2021.07.09 21:26:37 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.09 21:26:42 INFO  time: initialize in 4.9s[0m
+[0m2021.07.09 21:26:42 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.09 21:26:42 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.09 21:26:42 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\io\ubs_example.scala[0m
+[0m2021.07.09 21:26:44 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.09 21:26:47 INFO  time: code lens generation in 4.58s[0m
+Jul 09, 2021 9:30:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+[0m2021.07.09 21:30:13 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_value\coremont\src\main\scala\example\Hello.scala[0m
+Jul 09, 2021 9:30:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.07.09 21:30:26 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_value\coremont\src\test\scala\example\HelloSpec.scala[0m
+[0m2021.07.10 01:10:14 INFO  shutting down Metals[0m
+[0m2021.07.11 17:06:00 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.11 17:06:04 INFO  time: initialize in 4.83s[0m
+[0m2021.07.11 17:06:05 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.11 17:06:05 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.11 17:06:05 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_value\coremont\src\main\scala\example\Hello.scala[0m
+[0m2021.07.11 17:06:08 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.11 17:06:09 INFO  time: code lens generation in 4.68s[0m
+Jul 11, 2021 5:06:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.07.11 17:06:35 INFO  shutting down Metals[0m
+[0m2021.07.12 00:49:03 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.12 00:49:08 INFO  time: initialize in 4.76s[0m
+[0m2021.07.12 00:49:08 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.12 00:49:08 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.12 00:49:08 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
+[0m2021.07.12 00:49:09 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.12 00:49:11 INFO  time: code lens generation in 2.73s[0m
+Jul 12, 2021 12:49:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+[0m2021.07.12 00:49:17 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\generate_parenthesis.scala[0m
+Jul 12, 2021 12:49:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+[0m2021.07.12 00:49:19 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\clone_graph.scala[0m
+[0m2021.07.12 00:50:21 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\generate_parenthesis.scala[0m
+Jul 12, 2021 12:50:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+[0m2021.07.12 00:50:23 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\graph\dfs_mutable\applied\num_islands.scala[0m
+[0m2021.07.12 00:51:04 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\unique_count\missing_number.scala[0m
+Jul 12, 2021 12:51:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+[0m2021.07.12 00:51:43 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\array_minmax\trap_water.scala[0m
+Jul 12, 2021 12:51:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+[0m2021.07.12 00:51:52 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\firstUniqueChar.scala[0m
+Jul 12, 2021 12:51:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+[0m2021.07.12 00:51:57 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\is_anagram.scala[0m
+Jul 12, 2021 12:52:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+[0m2021.07.12 00:52:12 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_count\sub_array_sum.scala[0m
+Jul 12, 2021 12:52:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+[0m2021.07.12 00:52:20 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\four_sum.scala[0m
+Jul 12, 2021 12:52:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+[0m2021.07.12 00:52:30 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\two_sum.scala[0m
+[0m2021.07.12 00:52:39 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\three_sum.scala[0m
+[0m2021.07.12 00:52:51 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_index\four_sum.scala[0m
+Jul 12, 2021 12:52:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+[0m2021.07.12 00:52:55 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_value\sparse_matrix_multiply.scala[0m
+Jul 12, 2021 12:53:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+[0m2021.07.12 00:53:10 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\applied\is_valid.scala[0m
+Jul 12, 2021 12:53:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+[0m2021.07.12 00:53:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\diameter_of_binary_tree.scala[0m
+Jul 12, 2021 12:54:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+[0m2021.07.12 00:54:08 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\is_same_tree.scala[0m
+Jul 12, 2021 12:54:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+[0m2021.07.12 00:54:13 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\lowest_common_ancestor.scala[0m
+[0m2021.07.12 00:54:17 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\tree\applied\max_depth.scala[0m
+Jul 12, 2021 12:54:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 129
+[0m2021.07.12 00:54:18 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\applied\letter_combinations.scala[0m
+Jul 12, 2021 12:54:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 134
+[0m2021.07.12 00:54:36 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\grid\applied\exist.scala[0m
+Jul 12, 2021 12:54:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 139
+[0m2021.07.12 00:54:38 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear_acc\applied\generate_parenthesis.scala[0m
+[0m2021.07.12 00:54:39 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear\applied\generate_parenthesis.scala[0m
+[0m2021.07.12 00:56:27 INFO  shutting down Metals[0m
+[0m2021.07.12 09:36:24 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.12 09:36:29 INFO  time: initialize in 4.83s[0m
+[0m2021.07.12 09:36:29 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.12 09:36:29 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.12 09:36:29 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\double_linear\applied\generate_parenthesis.scala[0m
+[0m2021.07.12 09:36:31 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.12 09:36:33 INFO  time: code lens generation in 3.63s[0m
+Jul 12, 2021 10:05:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+[0m2021.07.12 10:05:52 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\queue\applied\moving_average.scala[0m
+Jul 12, 2021 10:05:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.07.12 10:05:56 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\rolling_product\productExceptSelf.scala[0m
+Jul 12, 2021 10:07:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+[0m2021.07.12 10:07:34 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\unique_count\missing_number.scala[0m
+Jul 12, 2021 10:07:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+[0m2021.07.12 10:07:57 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\applied\reverse_list.scala[0m
+Jul 12, 2021 10:08:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+[0m2021.07.12 10:08:05 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\applied\letter_combinations.scala[0m
+Jul 12, 2021 10:08:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+[0m2021.07.12 10:08:14 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\combination_sum.scala[0m
+[0m2021.07.12 10:15:50 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\rolling_product\productExceptSelf.scala[0m
+Jul 12, 2021 10:15:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+[0m2021.07.12 10:15:54 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\constant_memory\applied\unique_count\missing_number.scala[0m
+Jul 12, 2021 10:16:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+[0m2021.07.12 10:16:08 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\map_count\sub_array_sum.scala[0m
+Jul 12, 2021 10:16:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+[0m2021.07.12 10:16:18 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\map\applied\group_by\is_anagram.scala[0m
+[0m2021.07.12 10:17:33 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\applied\is_valid.scala[0m
+Jul 12, 2021 10:17:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+[0m2021.07.12 10:17:39 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\usememory\stack\applied\trap_water.scala[0m
+[0m2021.07.12 11:09:28 INFO  shutting down Metals[0m
+[0m2021.07.12 14:15:20 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs' for client Visual Studio Code 1.58.0.[0m
+[0m2021.07.12 14:15:25 INFO  time: initialize in 4.83s[0m
+[0m2021.07.12 14:15:25 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.12 14:15:25 WARN  no build tool detected in workspace 'C:\Users\lao8n\OneDrive\Documents\leet_algs'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.12 14:15:25 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\gresearch.scala[0m
+[0m2021.07.12 14:15:27 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.12 14:15:28 INFO  time: code lens generation in 2.37s[0m
+[0m2021.07.12 14:15:28 INFO  time: code lens generation in 3.13s[0m
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/recursion/linear/applied/gresearch.scala in (Int, <error>)RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/recursion/linear/applied/gresearch.scala, 68, 68, 83)
+something's wrong: no file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/recursion/linear/applied/gresearch.scala in (Int, Int)RangePosition(file:///C:/Users/lao8n/OneDrive/Documents/leet_algs/recursion/linear/applied/gresearch.scala, 73, 73, 83)
+[0m2021.07.12 14:18:58 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\gresearch.scala[0m
+Jul 12, 2021 2:24:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:673)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:32)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:127)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:245)
+	at com.google.gson.Gson.toJson(Gson.java:704)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:704)
+	at com.google.gson.Gson.toJson(Gson.java:683)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670)
+	... 9 more
+
+[0m2021.07.12 14:33:35 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\gresearch.scala[0m
+[0m2021.07.12 14:33:38 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\merge_two_lists.scala[0m
+Jul 12, 2021 2:33:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 972
+[0m2021.07.12 14:33:42 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear\applied\permute.scala[0m
+Jul 12, 2021 2:33:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 977
+Jul 12, 2021 2:42:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 995
+[0m2021.07.12 14:42:15 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\applied\letter_combinations.scala[0m
+[0m2021.07.12 14:42:17 WARN  no build target for: C:\Users\lao8n\OneDrive\Documents\leet_algs\recursion\linear_acc\applied\reverse_list.scala[0m

@@ -1,5 +1,5 @@
 func twoSum(nums []int, target int) []int {
-    nums_map := make(map[int] int)
+	nums_map := make(map[int]int) // complement -> index
 	for i := range nums {
 		complement := target - nums[i]
 		if j, ok := nums_map[complement]; ok {

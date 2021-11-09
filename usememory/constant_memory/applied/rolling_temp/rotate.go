@@ -2,6 +2,10 @@ func rotate(nums []int, k int) {
 	// https://leetcode.com/problems/rotate-array/solution/
 	// we want to just store a temp value to update each value one-by-one
 	// however if len(s) % n = 0 then we will have to do it in d (divisor) sets
+	k %= len(nums)
+	if k == 0 {
+		return
+	}
 	d := gcd(len(nums), k)
 	// loop through each of the d sets
 	for i := 0; i < d; i++ {

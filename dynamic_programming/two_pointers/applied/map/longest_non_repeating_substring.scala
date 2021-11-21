@@ -1,5 +1,5 @@
 object Solution {
-  def lengthOfLongestSubstring(s: String){
+  def lengthOfLongestSubstring(s: String): Unit = {
     var longestSubstring = 0;
     val substringMap = scala.collection.mutable.HashMap[Char, Int]()
     
@@ -16,7 +16,7 @@ object Solution {
   }
 
   import scala.collection.immutable.HashMap
-  def lengthOfLongestSubstring(s: String){
+  def lengthOfLongestSubstring(s: String): Unit = {
     @annotation.tailrec
       def recursiveLengthOfLongestSubstring(substringMap: HashMap[Char, Int], 
         substringStart: Int, substringFinish: Int, longestSubstring: Int): Int = {

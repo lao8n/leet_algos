@@ -12,11 +12,12 @@ func spiralOrder(matrix [][]int) []int {
 
 func rotate90Left(matrix [][]int) [][]int {
 	// if matrix is mxn then rotated matrix is nxm
-	out := make([][]int, len(matrix[0]))
+	m, n := len(matrix), len(matrix[0])
+	out := make([][]int, n)
 	// old matrix coordinates r, c, new matrix coordinates i, j
-	for i := 0; i < len(matrix[0]); i++ {
-		for j := 0; j < len(matrix); j++ {
-			r, c := j, len(matrix[0])-1-i // jth col = rth row, and
+	for i := 0; i < n; i++ {
+		for j := 0; j < m; j++ {
+			r, c := j, n-1-i // jth col = rth row, and
 			out[i] = append(out[i], matrix[r][c])
 		}
 	}

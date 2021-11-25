@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"sort"
+	"unicode"
 )
 
 type stringPalindrome []string
@@ -21,6 +22,37 @@ func IsPalindrome(s sort.Interface) bool {
 	}
 	return true
 }
+
+func IsPalindromeSimpler(s string) bool {
+	for i := range s {
+		if s[i] != s[len(s)-1-i] {
+			return false
+		}
+	}
+	return true
+}
+
+func isPalindrome(s string) bool {
+	var alphanumerics []rune
+	for _, r := range s {
+		if unicode.IsLetter(r) || unicode.IsDigit(r) {
+			alphanumerics = append(alphanumerics, unicode.ToLower(r))
+		}
+	}
+	for i := range alphanumerics {
+		if alphanumerics[i] != alphanumerics[len(alphanumerics)-1-i] {
+			return false
+		}
+	}
+	return true
+}
+
+// func isAlphaNumeric(a rune) bool {
+//     if (a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z') || (a >= '0' && a <= '9'){
+//         return true
+//     }
+//     return false
+// }
 
 func main() {
 	pal1 := []string{"a", "b", "a"}

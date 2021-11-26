@@ -5,7 +5,7 @@ object Solution {
         // then for loop over values in map checking if > n/3 and outputting as an array
         
         // observations
-        // a maximum of 3 elements can appear over n/3 times (depending upon rounding)
+        // a maximum of 2 elements can appear over n/3 times 
         // can't sort because that doesn't give us linear time
         // can probably stop early when we know that n/3 times cannot exist
         // so you can't avoid going through the whole array in case there is a element right on the threshold

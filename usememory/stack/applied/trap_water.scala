@@ -4,7 +4,7 @@ object Solution {
         // for every square - test left and right to see if is surrounded
         
         // memory -> stack
-        //stack of indices is a rolling list of smallest bars
+        // stack of indices is a rolling list of smallest bars
         import scala.collection.mutable
         def recursiveTrap(hI :Int, stackLastMinHeights : mutable.Stack[Int], total : Int): Int = {
             // base case

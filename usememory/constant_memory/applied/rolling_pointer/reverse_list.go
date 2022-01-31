@@ -5,19 +5,12 @@
  *     Next *ListNode
  * }
  */
-// choice 1. look at next or look at current
-
 func reverseList(head *ListNode) *ListNode {
-	return reverseListRec(head, nil)
-}
-
-func reverseListRec(head *ListNode, reversed *ListNode) *ListNode {
-	// base case
-	if head == nil {
-		return reversed
+	var result *ListNode
+	for head != nil {
+		temp := ListNode{Val: head.Val, Next: result}
+		result = &temp
+		head = head.Next
 	}
-	// recursive case
-	next := ListNode{Val: head.Val, Next: reversed}
-	result := reverseListRec(head.Next, &next)
 	return result
 }

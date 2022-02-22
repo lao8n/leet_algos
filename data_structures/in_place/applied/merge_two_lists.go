@@ -1,3 +1,5 @@
+package data_structures
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {

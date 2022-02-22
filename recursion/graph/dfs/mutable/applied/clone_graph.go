@@ -1,10 +1,12 @@
+package leet_algos
+
 /**
  * Definition for a Node.
- * type Node struct {
- *     Val int
- *     Neighbors []*Node
- * }
  */
+type Node struct {
+	Val       int
+	Neighbors []*Node
+}
 
 // Choice : dfs vs bfs, dfs because of neighbours and no queue
 // Choice: how track already been to neighbor -> use set with value,

@@ -1,5 +1,8 @@
 package leet_algos
 
+// time complexity = O(MxN) -> every possible starting point
+// space complexity = O(MxN) worst case where all land and dfs searches MxN deep
+
 // plan: for each found 1 -> do dfs look for all 1s that are connected
 // seen: tick off seen 1s and 0s in a seen graph
 func numIslands(grid [][]byte) int {

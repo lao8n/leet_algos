@@ -6,19 +6,18 @@ func numIslands(grid [][]byte) int {
 	for r := 0; r < numRows; r++ {
 		for c := 0; c < numCols; c++ {
 			if grid[r][c] == '1' {
-				grid[r][c] = '0'
-				current := r*numRows + c
+				current := r*numCols + c
 				if isValid(r-1, c, grid) {
-					uf.Union(current, r*(numRows-1)+c)
+					uf.Union(current, (r-1)*numCols+c)
 				}
 				if isValid(r+1, c, grid) {
-					uf.Union(current, r*(numRows+1)+c)
+					uf.Union(current, (r+1)*numCols+c)
 				}
 				if isValid(r, c-1, grid) {
-					uf.Union(current, r*numRows+c-1)
+					uf.Union(current, r*numCols+c-1)
 				}
 				if isValid(r, c+1, grid) {
-					uf.Union(current, r*numRows+c+1)
+					uf.Union(current, r*numCols+c+1)
 				}
 			}
 		}
@@ -51,10 +50,10 @@ func (u *UnionFind) Init(grid [][]byte) {
 	u.Parent = make([]int, numRows*numCols)
 	u.Size = make([]int, numRows*numCols)
 
-	for i := 0; i < numRows; i++ {
-		for j := 0; j < numCols; j++ {
-			current := i*numRows + j
-			if grid[i][j] == '1' {
+	for r := 0; r < numRows; r++ {
+		for c := 0; c < numCols; c++ {
+			current := r*numCols + c
+			if grid[r][c] == '1' {
 				u.Parent[current] = current
 				u.Size[current] = 1
 				u.Count++
@@ -78,11 +77,11 @@ func (u *UnionFind) Union(x, y int) {
 		u.Parent[pY] = u.Parent[pX]
 		u.Size[pX] += u.Size[pY]
 	}
+	u.Count--
 }
 
 func (u *UnionFind) Find(x int) int {
 	for u.Parent[x] != x {
-		fmt.Println(u.Parent[x], x)
 		u.Parent[x] = u.Find(u.Parent[x])
 		x = u.Parent[x]
 	}

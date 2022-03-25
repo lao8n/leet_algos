@@ -5,6 +5,8 @@ package leet_algos
 
 // plan: for each found 1 -> do dfs look for all 1s that are connected
 // seen: tick off seen 1s and 0s in a seen graph
+
+// note here we track whether seen based upon updating grid[i][j] rather than a separate seen matrix
 func numIslands(grid [][]byte) int {
 	count := 0
 	for i := range grid {

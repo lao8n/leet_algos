@@ -3,6 +3,12 @@
 
 // TODO
 // do not check same path twice
+
+// complexity
+// time = each dfs search has complexity O(d), longest path is O(m + n), and there are 2 directions
+// to go in so it is 2^{m+n}
+// space = O(mn) where need O(d) for depth of recursion (system stack), which is in the worst case
+// have depth = mn
 func longestIncreasingPath(matrix [][]int) int {
 	// loop over every starting point
 	longestPath := 0

@@ -4,8 +4,12 @@
 // TODO
 // naive = dfs -> time limit exceeded, time complexity is O(2^{m + n}), space complexity
 // O(mn)
+// time complexity = all nodes visited once which is O(mn) for mxn nodes, or one node with path
+// O(mxn) for all nodes
 // visit/search = within each dfs search do not check the same place once
 // memoization across searches = add memoization
+
+// notes memoization only works here because it is strictly increasing so cannot have a cycle
 func longestIncreasingPath(matrix [][]int) int {
 	// loop over every starting point
 	longestPath := 0

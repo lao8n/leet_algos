@@ -1,6 +1,7 @@
 // build a map from number -> letter - no clever rule because cannot just add 3 etc.
 // total time = time cost of one path * number of paths
 // for each combination we need O(N) time and there are O(4^n) combinations
+// and it costs N complexity to build a string of length N so O(4^n x N)
 func letterCombinations(digits string) []string {
 	combinations := []string{}
 	for i, d := range digits { // d = '2'

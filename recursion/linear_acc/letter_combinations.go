@@ -1,0 +1,31 @@
+// two problems 1. how acc string 2. how acc solutions
+func letterCombinations(digits string) []string {
+	combinations := []string{}
+	if len(digits) == 0 {
+		return combinations
+	}
+	letterCombinationsAcc(digits, "", &combinations)
+	return combinations
+}
+
+func letterCombinationsAcc(digits string, accString string, combinations *[]string) {
+	// base case
+	if digits == "" {
+		*combinations = append(*combinations, accString)
+		return
+	}
+	for _, c := range digitLetterMap[digits[0]] {
+		letterCombinationsAcc(digits[1:], accString+string(c), combinations)
+	}
+}
+
+var digitLetterMap = map[byte][]string{
+	'2': {"a", "b", "c"},
+	'3': {"d", "e", "f"},
+	'4': {"g", "h", "i"},
+	'5': {"j", "k", "l"},
+	'6': {"m", "n", "o"},
+	'7': {"p", "q", "r", "s"},
+	'8': {"t", "u", "v"},
+	'9': {"w", "x", "y", "z"},
+}

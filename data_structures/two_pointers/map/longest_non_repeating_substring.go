@@ -1,3 +1,5 @@
+package data_structures
+
 func lengthOfLongestSubstring(s string) int {
 	max, m := 0, map[byte]int{} // golang has no char so could either use byte or rune here
 	for substringStart, substringFinish := 0, 0; substringFinish < len(s); substringFinish++ {

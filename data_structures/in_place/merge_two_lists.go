@@ -1,12 +1,11 @@
 package data_structures
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+// Definition for singly-linked list.
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	// choice: 1. for loop 2. recursion
 	// choice: 1. in-place 2. new result

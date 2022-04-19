@@ -1,3 +1,5 @@
+package data_structures
+
 // build a map from number -> letter - no clever rule because cannot just add 3 etc.
 // total time = time cost of one path * number of paths
 // for each combination we need O(N) time and there are O(4^n) combinations

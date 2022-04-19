@@ -1,10 +1,11 @@
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+package data_structures
+
+// Definition for singly-linked list.
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	// reverse-order = natural way to get number size is build from smallest digit
 	// but would require either O(n) storage and O(2n) pass

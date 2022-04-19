@@ -1,3 +1,5 @@
+package data_structures
+
 func trap(height []int) int {
 	// 2 approaches
 	// 1. sum vertical strips = at each point look for maximum either side (using two pointers)

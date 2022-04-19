@@ -4,7 +4,7 @@
 // See page 101.
 
 // Package treesort provides insertion sort using an unbalanced binary tree.
-package treesort
+package data_structures
 
 //!+
 type tree struct {

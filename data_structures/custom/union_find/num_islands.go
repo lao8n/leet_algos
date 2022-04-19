@@ -1,3 +1,5 @@
+package data_structures
+
 func numIslands(grid [][]byte) int {
 	numRows := len(grid)
 	numCols := len(grid[0])

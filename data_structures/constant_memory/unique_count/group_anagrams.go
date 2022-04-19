@@ -1,3 +1,5 @@
+package data_structures
+
 func groupAnagrams(strs []string) [][]string {
 	m := make(map[[26]int][]string)
 	for _, s := range strs {

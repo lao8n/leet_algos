@@ -1,3 +1,5 @@
+package data_structures
+
 func trap(height []int) int {
 	left, right, sum, maxLeft, maxRight := 0, len(height)-1, 0, 0, 0
 	for left <= right {

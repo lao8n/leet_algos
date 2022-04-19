@@ -1,3 +1,5 @@
+package data_structures
+
 func productExceptSelf(nums []int) []int {
 	// O(2n) space is a left and right matrix
 	// can do better by using result as left matrix and calculating right on the fly with O(1)

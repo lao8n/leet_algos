@@ -1,3 +1,5 @@
+package data_structures
+
 func rotate(nums []int, k int) {
 	// 	// https://leetcode.com/problems/rotate-array/solution/
 	if len(nums) == 0 || k == 0 {

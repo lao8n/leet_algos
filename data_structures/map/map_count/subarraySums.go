@@ -1,3 +1,5 @@
+package data_structures
+
 func subarraySum(nums []int, k int) int {
 	// two-pointers doesn't work because of negative numbers
 	// 1. naive try every start and stop index for O(n^3)

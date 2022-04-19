@@ -1,3 +1,5 @@
+package data_structures
+
 func firstUniqChar(s string) int {
 	// naive for loop trying every letter
 	// map = use a map of all the characters and their count

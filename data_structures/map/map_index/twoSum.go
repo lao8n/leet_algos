@@ -1,3 +1,5 @@
+package data_structures
+
 func twoSum(nums []int, target int) []int {
 	nums_map := make(map[int]int) // complement -> index
 	for i := range nums {

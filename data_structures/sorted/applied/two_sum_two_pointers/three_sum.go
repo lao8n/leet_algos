@@ -1,3 +1,5 @@
+package data_structures
+
 import "sort"
 
 func threeSum(nums []int) [][]int {

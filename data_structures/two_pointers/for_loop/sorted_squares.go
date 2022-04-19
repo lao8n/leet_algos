@@ -1,3 +1,5 @@
+package data_structures
+
 func sortedSquares(nums []int) []int {
 	// square than sort = O(n) to square each element then O(n logn) to sort
 	// two-pointers = O(n) to find smallest negative element and smallest positive element

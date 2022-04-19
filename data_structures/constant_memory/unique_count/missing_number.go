@@ -1,3 +1,5 @@
+package data_structures
+
 func missingNumber(nums []int) int {
 	// sort number O(n logn) -> increment until find missing O(n)
 	// sum all elements O(n) keep track of max and min and then use (max * min) / 2

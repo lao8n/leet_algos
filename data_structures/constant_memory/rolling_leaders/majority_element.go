@@ -1,3 +1,5 @@
+package data_structures
+
 func majorityElement(nums []int) []int {
 	// use boyer-moore voting algorithm where there can be at most two
 	// majority elements which are more than n/3 times

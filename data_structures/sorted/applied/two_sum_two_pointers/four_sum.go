@@ -1,3 +1,5 @@
+package data_structures
+
 import "sort"
 
 func fourSum(nums []int, target int) [][]int {

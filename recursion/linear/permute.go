@@ -16,6 +16,7 @@ func permute(nums []int) [][]int {
 	// recursive case
 	solutions := [][]int{}
 	for i, n := range nums {
+		// get all nums except n
 		lessThanINums := []int{}
 		if i >= 0 {
 			lessThanINums = make([]int, len(nums[:i]))
@@ -27,7 +28,11 @@ func permute(nums []int) [][]int {
 			copy(moreThanINums, nums[i+1:])
 		}
 		withoutN := append(lessThanINums, moreThanINums...)
+
+		// find all their permutations
 		solutionsWithoutN := permute(withoutN)
+
+		// combine them with n
 		solutionsWithN := make([][]int, len(solutionsWithoutN))
 		for j, w := range solutionsWithoutN {
 			solutionsWithN[j] = append(w, n)

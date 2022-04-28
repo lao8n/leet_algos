@@ -1,11 +1,14 @@
+package recursion
+
 /**
  * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
  */
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
 // choice 1: validate root at each node or before recursing
 // choice 2: separate dfs function? only if need to accumulate something
 // choice 3: can we just pick longest path of left or right? maybe need two values -> internal path

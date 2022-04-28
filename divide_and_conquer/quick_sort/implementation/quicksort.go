@@ -1,9 +1,8 @@
-package main
+package divide_and_conquer
 
 import (
-	"fmt"
-	"sort"
 	"math/rand"
+	"sort"
 )
 
 // standard partition in place swap
@@ -30,18 +29,18 @@ func partition(s sort.Interface, start int, end int, pivotIndex int) int {
 	return j
 }
 
-func sortRecursiveWithSwap(start int, end int){
+func sortRecursiveWithSwap(start int, end int) {
 	if start >= end {
 		return
 	}
-	pivotIndex := partition(s, start, end, rand.Intn(last - first + 1) + start)
-	// we use a recursive closure rather than passing slices 
+	pivotIndex := partition(s, start, end, rand.Intn(last-first+1)+start)
+	// we use a recursive closure rather than passing slices
 	// this is because although slices are cheap (they do not copy the underlying array)
 	// there is some overhead in constructing the slice object
-	sortRecursiveWithSwap(s, start, pivotIndex + 1)
-	sortRecursiveWithSwap(s, pivotIndex + 1, end)
+	sortRecursiveWithSwap(s, start, pivotIndex+1)
+	sortRecursiveWithSwap(s, pivotIndex+1, end)
 }
 
 func sortRecursiveInPlace(s sort.Interface) {
-	sortRecursiveWithSwap(s, 0, s.Len() - 1)
+	sortRecursiveWithSwap(s, 0, s.Len()-1)
 }

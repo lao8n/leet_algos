@@ -1,3 +1,5 @@
+package recursion
+
 // two problems 1. how acc string 2. how acc solutions
 // solution 1: recurse forward, acc string and append to pointer
 // solution 2: recurse backwards, acc string

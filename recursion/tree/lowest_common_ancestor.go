@@ -1,4 +1,4 @@
-package leet_algos
+package recursion
 
 type TreeNode struct {
 	Val   int

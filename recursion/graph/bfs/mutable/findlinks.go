@@ -4,7 +4,7 @@
 // See page 139.
 
 // Findlinks3 crawls the web, starting with the URLs on the command line.
-package main
+package recursion
 
 import (
 	"fmt"

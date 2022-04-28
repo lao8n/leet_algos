@@ -1,3 +1,5 @@
+package recursion
+
 // recurse from beginning or end
 // still have double for loop here
 func letterCombinations(digits string) []string {

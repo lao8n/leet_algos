@@ -1,3 +1,5 @@
+package recursion
+
 // approach = recursive function
 // questions
 // 1. how acc solutions? in return function as already have []string

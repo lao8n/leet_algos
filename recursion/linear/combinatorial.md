@@ -1,15 +1,24 @@
 There are types of problems:
-1. permutations n!
-2. combinations n C k
+1. permutations n! = order does matter
+2. combinations n C k = order doesn't matter
 3. subsets 2^n
 
+Key difference between permutations and combinations
+* Permutations you loop over candidates and solutions, with combinations you loop over just one.
+
 Permutations 
-* 
+* Generate = loop over candidates
+    1. Loop over list as arg with `[:i]` and `[i+1:]` `permute.go`
+* Order does matter = how keep different permutations
+    1. In each recursive call loop over all candidates and append new permutation to all solutions `permute.go`
+* Solution
+    1. Accumulate through return statement append to list of solutions over candidates `solutionsWithN[j] = append(w, n)` `permute.go`
 
 Combinations
 * Generate = loop over candidates
     1. Loop over same constant list with `combination_sum.scala`
-    2. Loop over list as arg with `combination_sum.go`, `linear/letter_combinations.go`, `linear_acc/letter_combinations.go`
+    2. Loop over list as arg with `combination_sum.go`, `linear_acc/letter_combinations.go`
+    3. Consider one element at a time per recursive call `linear/letter_combinations.go`
 * Separate function
     1. Yes `linear_acc/combination_sum.go`, `
 * Order doesn't matter = how remove duplicates? 

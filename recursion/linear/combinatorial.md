@@ -3,8 +3,13 @@ There are types of problems:
 2. combinations n C k = order doesn't matter
 3. subsets 2^n
 
+Core approaches
+* Recurse forwards to [] base case, recurse backwards looping over solutions adding candidates
+* Recurse forwards with accumulator building to combination as base case, recurse backwards appending solutions
+* Recurse forwards with accumulator and pointer to solutions to combination as base case and appending solutions
+
 Key difference between permutations and combinations
-* Permutations you loop over candidates and solutions, with combinations you loop over just one.
+* Permutations you loop over candidates and solutions, with combinations you loop over just one
 
 Permutations 
 * Generate = loop over candidates

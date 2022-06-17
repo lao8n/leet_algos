@@ -22,3 +22,9 @@ cost of more arrays
 differences across languages
 essentially the languages are the same except for the languages with immutable data structures like erlang 
 which cannot do the in-place approach
+
+vs other sorting methods
+* time complexity = both quick and merge are O(n logn), quick depends a lot on good pivots (or even distribution elements)
+* space complexity = in place vs merge sort O(n)
+* random access = merge sort doesn't require random access (better for linkedlists), quick sort works well for small datasets held in memory
+* stability = merge sort maintains the relative order of two equal elements, quick sort does not 

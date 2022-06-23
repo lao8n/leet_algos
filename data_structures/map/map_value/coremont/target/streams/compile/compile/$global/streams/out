@@ -1,6 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\lao8n\Downloads\test\coremont\src\main\scala\example\Hello.scala:18:85: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : List[java.io.Serializable][0m
-[0m[[0m[31merror[0m] [0m[0m required: (String, List[String])[0m
-[0m[[0m[31merror[0m] [0m[0m        case Some(listAnagrams) => anagram(reader, anagramMap + (sortedLine -> line :: listAnagrams))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

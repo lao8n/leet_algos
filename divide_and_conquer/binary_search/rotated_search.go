@@ -8,6 +8,7 @@ func search(nums []int, target int) int {
 	return partition(nums, target, 0, len(nums)-1)
 }
 
+// can simplify by thinking about two ends and mid-point explicitly.
 func partition(nums []int, target int, i1 int, i2 int) int {
 	// base cases
 	if i2-i1 <= 1 && nums[i1] != target && nums[i2] != target {
@@ -17,7 +18,7 @@ func partition(nums []int, target int, i1 int, i2 int) int {
 	} else if target == nums[i2] {
 		return i2
 	}
-	i1, i2 = i1, i1+(i2-i1)/2
+	i2 = i1 + (i2-i1)/2
 	v1, v2 := nums[i1], nums[i2]
 	// compare to target
 	if v1 <= target && target <= v2 {

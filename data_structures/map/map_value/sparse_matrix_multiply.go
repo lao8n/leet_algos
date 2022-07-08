@@ -18,4 +18,52 @@ func multiply(mat1 [][]int, mat2 [][]int) [][]int {
 	// column i.e. O(n), but only need to do loop for non-zero values which if we assume
 	// is only 10% of the time which saves k iterations
 	// O(nxk + mxn + mxn/10 * n/10) = ~O(n^2)
+
+	// there are two ways we can build up the final mxk matrix
+	// 1. calculate each mxk entry which uses mth row and kth column, although you will
+	//    have to look up each component multiple times
+	// 2. calculate all the values used by a component summing incrementally
+	mLen := len(mat1)
+	nLen := len(mat2)
+	kLen := len(mat2[0])
+	mat2Map := make(map[int]map[int]int) // nxk: n row -> [k col -> value]
+	// create mat2 map O(nxk)
+	for n := 0; n < nLen; n++ {
+		// nxk matrix
+		for k := 0; k < kLen; k++ {
+			if mat2[n][k] != 0 {
+				if map2KCol, found := mat2Map[n]; found {
+					map2KCol[k] = mat2[n][k]
+					mat2Map[n] = map2KCol
+				} else {
+					newMap2KCol := make(map[int]int)
+					newMap2KCol[k] = mat2[n][k]
+					mat2Map[n] = newMap2KCol
+				}
+			}
+		}
+	}
+	result := make([][]int, mLen)
+	// initialize matrix O(mxk)
+	for m := range result {
+		result[m] = make([]int, kLen)
+		for k := range result[m] {
+			result[m][k] = 0
+		}
+	}
+	// add non-zero mat1[m][n] everywhere it is used O(mxnx(k/10))
+	for m := 0; m < mLen; m++ {
+		for n := 0; n < nLen; n++ {
+			if mat1[m][n] != 0 {
+				// multiply ith row of mat1 by ith col of mat2
+				if mat2NRow, ok := mat2Map[n]; ok {
+					for kCol, mat2NK := range mat2NRow {
+						result[m][kCol] += mat1[m][n] * mat2NK
+					}
+				}
+			}
+		}
+	}
+
+	return result
 }

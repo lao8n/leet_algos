@@ -1,3 +1,5 @@
+package data_structures
+
 // approach 1
 // map O(n) store frequencies
 // sort keys by values O(k logk)

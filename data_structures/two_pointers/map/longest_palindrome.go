@@ -1,7 +1,6 @@
 package data_structures
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -19,11 +18,10 @@ func longestPalindrome(s string) string {
 			radius = float64(right) - midpoint
 		}
 		palindromeRadii[int(2*midpoint)] = radius
-		fmt.Println(palindromeRadii)
 		// mirrored radius
 		mirror = midpoint
 		mirrorRadius = radius
-		fmt.Printf("left %v right %v midpoint %v mirror %v, mirrorRadius %v\n", left, right, midpoint, mirror, mirrorRadius)
+		// fmt.Printf("left %v right %v midpoint %v mirror %v, mirrorRadius %v\n", left, right, midpoint, mirror, mirrorRadius)
 		// reset values
 		midpoint = midpoint + 0.5
 		radius = 0
@@ -32,10 +30,10 @@ func longestPalindrome(s string) string {
 			maxMirroredRadius := mirrorRadius + mirror - midpoint
 			if palindromeRadii[int(2*mirroredMidpoint)] < maxMirroredRadius {
 				palindromeRadii[int(2*midpoint)] = palindromeRadii[int(2*mirroredMidpoint)]
-				midpoint++
+				midpoint = midpoint + 0.5
 			} else if palindromeRadii[int(2*mirroredMidpoint)] > maxMirroredRadius {
 				palindromeRadii[int(2*midpoint)] = maxMirroredRadius // couldn't this not be the max
-				midpoint++
+				midpoint = midpoint + 0.5
 			} else {
 				radius = maxMirroredRadius
 				break

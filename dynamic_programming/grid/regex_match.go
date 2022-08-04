@@ -33,10 +33,11 @@ func isMatch(s string, p string) bool {
 				previousMatch := dp[sI-1][pI-1]
 				dp[sI][pI] = previousMatch
 			} else if currentStar { // e.g. ab vs c*
-				ignoreStar := dp[sI][pI-1] || dp[sI][pI-2]        // ignore c*
+				ignoreStar := dp[sI][pI-2] // ignore c*
+				matchOnceStar := dp[sI][pI-1]
 				previousMatch := dp[sI-1][pI]                     // a match *?
 				starMatch := s[sI-1] == p[pI-2] || p[pI-2] == '.' // b == c?
-				dp[sI][pI] = ignoreStar || (previousMatch && starMatch)
+				dp[sI][pI] = ignoreStar || matchOnceStar || (previousMatch && starMatch)
 			}
 		}
 	}

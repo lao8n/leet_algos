@@ -4,6 +4,7 @@ import (
 	"math"
 )
 
+// this is kadane's algorithm in disguise
 // single pass calculating max profit where we minus the minimum price calculated up to that point
 func maxProfitBetter(prices []int) int {
 	minPrice := math.MaxInt

@@ -1,5 +1,23 @@
 package data_structures
 
+import (
+	"math"
+)
+
+// single pass calculating max profit where we minus the minimum price calculated up to that point
+func maxProfitBetter(prices []int) int {
+	minPrice := math.MaxInt
+	maxProfit := 0
+	for i := 0; i < len(prices); i++ {
+		if prices[i] < minPrice {
+			minPrice = prices[i]
+		} else if prices[i]-minPrice > maxProfit {
+			maxProfit = prices[i] - minPrice
+		}
+	}
+	return maxProfit
+}
+
 // brute force - try all possible buy prices with all possible sell prices O(n^2)
 // rolling min and max -> for each partition what is the max and min?
 func maxProfit(prices []int) int {

@@ -1,3 +1,5 @@
+package data_structures
+
 func multiply(mat1 [][]int, mat2 [][]int) [][]int {
 	// brute force : given mxn and nxk matrices, complexity is m x k x n^2 = ~O(n^4), i.e.
 	// each value in the final matrix has to go over n times

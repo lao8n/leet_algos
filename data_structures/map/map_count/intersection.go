@@ -1,3 +1,5 @@
+package data_structures
+
 // cannot use set instead need a map to track counts - can do it in a single pass
 // could also sort
 func intersect(nums1 []int, nums2 []int) []int {

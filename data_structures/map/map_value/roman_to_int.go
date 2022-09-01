@@ -1,3 +1,5 @@
+package data_structures
+
 func romanToInt(s string) int {
 	int_to_roman_map := map[rune]int{
 		'M': 1000,

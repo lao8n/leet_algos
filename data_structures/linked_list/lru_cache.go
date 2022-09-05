@@ -33,6 +33,8 @@ func (lru *LRUCache) Get(key int) int {
 	return -1
 }
 
+// put is implemented to have that at the front of the cache, but can also have at back
+// by replacing addHead calls with addTail
 func (lru *LRUCache) Put(key int, value int) {
 	// check if key already taken
 	node, ok := lru.nodeMap[key]

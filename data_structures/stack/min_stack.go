@@ -4,6 +4,9 @@ package data_structures
 // min stack
 // cannot use a heap, bst etc. because not O(1)
 // key idea is use a stack with a rolling min
+
+// O(1) for push, pop, top, getMin
+// O(n) space complexity if all push
 type MinStack struct {
 	stack []valueMinPair // value & rolling min
 	size  int

@@ -1,4 +1,4 @@
-package recursion
+package data_structures
 
 /**
  * // This is the interface that allows for creating nested lists.
@@ -25,45 +25,47 @@ package recursion
  * // You can access NestedInteger's List element directly if you want to modify it
  * func (this NestedInteger) GetList() []*NestedInteger {}
  */
-
-// Problem = we inefficiently create the entire data structure rather than iterating over the current one
-// For infinite iterators this does not work!
+// use a stack to slowly unnest each layer
+// we want to always leave the stack with its top value as an integer ready to go
 type NestedIterator struct {
-	flattenedList []int
-	index         int
+	stack    []*NestedInteger
+	topIndex int
 }
 
-// Complexity: Time = O(N + L), Space = O(N + D) - need space not just for integers list but also stack frame for each level of depth
 func Constructor(nestedList []*NestedInteger) *NestedIterator {
-	return &NestedIterator{
-		flattenedList: flattenList(nestedList),
-		index:         0,
+	ni := &NestedIterator{
+		stack:    nestedList,
+		topIndex: 0,
 	}
+	ni.getIntegerAtTopOfStack()
+	return ni
 }
 
-func flattenList(nestedList []*NestedInteger) []int {
-	// base case
-	if len(nestedList) == 0 {
-		return []int{}
-	} else if len(nestedList) == 1 {
-		if nestedList[0].IsInteger() {
-			return []int{nestedList[0].GetInteger()}
-		} else {
-			return flattenList(nestedList[0].GetList())
-		}
+func (this *NestedIterator) getIntegerAtTopOfStack() {
+	// assume len stack > 0 as has next already called
+	if this.topIndex >= len(this.stack) {
+		return
 	}
-	// recursive
-	return append(flattenList([]*NestedInteger{nestedList[0]}), flattenList(nestedList[1:])...)
+	topOfStack := this.stack[this.topIndex]
+	if !topOfStack.IsInteger() {
+		nestedList := topOfStack.GetList()
+		// we use this opportunity to reset stack
+		this.stack = append(nestedList, this.stack[this.topIndex+1:]...)
+		// check integer is top of stack again
+		this.topIndex = 0
+		this.getIntegerAtTopOfStack()
+	}
+	// if integer is top of stack work is done
 }
 
-// Complexity: Time = O(1)
 func (this *NestedIterator) Next() int {
-	next := this.flattenedList[this.index]
-	this.index += 1
-	return next
+	// we have already guaranteed this is top of stack
+	topOfStack := this.stack[this.topIndex]
+	this.topIndex += 1
+	this.getIntegerAtTopOfStack()
+	return topOfStack.GetInteger()
 }
 
-// Complexity: Time = O(1)
 func (this *NestedIterator) HasNext() bool {
-	return this.index < len(this.flattenedList)
+	return this.topIndex < len(this.stack)
 }

@@ -6,7 +6,7 @@ package data_structures
 // problem that rolling max needs to follow rolling min
 func maxSubArray(nums []int) int {
 	currentRollingSum, maxRollingSum := nums[0], nums[0]
-
+	// this is just kadane's algorithm
 	for i := 1; i < len(nums); i++ {
 		if currentRollingSum < 0 {
 			currentRollingSum = 0

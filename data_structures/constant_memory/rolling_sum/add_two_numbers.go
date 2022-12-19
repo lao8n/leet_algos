@@ -9,7 +9,8 @@ type ListNode struct {
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	// reverse-order = natural way to get number size is build from smallest digit
 	// but would require either O(n) storage and O(2n) pass
-	// single-pass = need to know power of 10 to multiply by so either 1. use len but requires O(n) or 2. O(1) storage and multiply on fly
+	// single-pass = need to know power of 10 to multiply by so either 1. use len but requires O(n)
+	// or 2. O(1) storage and multiply on fly
 	// building digits = single pass is intuitive, extract digits with / 10 remainder
 	// choices: 1. recursive 2. for loop
 	// choices: 1. calculate sum then create output 2. calculate sum and output at the same time

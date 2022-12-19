@@ -6,6 +6,14 @@ type ListNode struct {
 	Next *ListNode
 }
 
+// for loop through [x] -> [y] -> [z]
+// ListNode{x, nil}
+// result = {x}
+// head = y
+// ListNode{y, x}
+// result = {y}
+// head = z
+// ListNode{z, y}
 func reverseList(head *ListNode) *ListNode {
 	var result *ListNode
 	for head != nil {

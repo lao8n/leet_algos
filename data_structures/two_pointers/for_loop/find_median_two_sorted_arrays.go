@@ -1,7 +1,7 @@
 package data_structures
 
 // approach 1: merge O(log(m+n)) & find median O((m+n)/2)
-// approach 2: get lens O(m) + O(n) & then merge half-way O(log((m+n)/2))
+// approach 2: get lens O(m) + O(n) & then merge half-way O(log((m+n)/2)) -> although we just O((m+n)/2)
 // complication 1: even vs odd numbers
 // complication 2: switching to other array
 // choice 1 : recursion or for loop

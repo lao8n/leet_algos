@@ -1,4 +1,4 @@
-package akka_classic
+
 
 import akka.actor.{ActorRef, Props, Actor}
 import akka.event.LoggingReceive

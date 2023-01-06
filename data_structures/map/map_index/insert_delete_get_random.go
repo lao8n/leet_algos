@@ -5,7 +5,6 @@ package data_structures
 // randomised need length of list which is O(n) but if update after every operation it's just +/-1, not necessary in golang because slice's are pointers to an array with length already maintained
 
 import (
-	"fmt"
 	"math/rand"
 )
 
@@ -41,7 +40,6 @@ func (this *RandomizedSet) Remove(val int) bool {
 }
 
 func (this *RandomizedSet) GetRandom() int {
-	fmt.Println(len(this.nums), this.nums, this.set)
 	index := rand.Intn(len(this.nums))
 	return this.nums[index]
 }

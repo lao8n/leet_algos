@@ -15,3 +15,6 @@ Dynamic programming checklist
 * State function/data structure to give answer to the problem for every given state
 * Recurrence relation to transition between states
 * Base cases, so recursion/iteration ends
+
+Implementations
+* maybe dynamic programming solutions have been stored in either the recursion memoization sections or in data structures constant memory

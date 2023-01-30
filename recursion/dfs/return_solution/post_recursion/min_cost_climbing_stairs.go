@@ -11,7 +11,7 @@ func minCostClimbingStairs(cost []int) int {
 }
 
 // recurse from base cases
-// memoize last two numbers only
+// memoize last two numbers only - and only do it through return statement
 // return cost of 1 step and cost of 2 steps
 func recursiveMinCost(cost []int) (oneStep int, twoSteps int) { //
 	// base cases

@@ -22,7 +22,7 @@ func recursiveMinCost(cost []int) (oneStep int, twoSteps int) { //
 		// return cost of 1 step and 2 steps (i.e. skipping 1 step)
 		recursiveOneStep, recursiveTwoSteps := recursiveMinCost(cost[1:])
 		// question: shall we step cost[0]?
-		// if yes
+		// if yes - two options
 		oneStep = recursiveOneStep + cost[0]
 		if recursiveTwoSteps+cost[0] < oneStep {
 			oneStep = recursiveTwoSteps + cost[0]

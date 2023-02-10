@@ -29,6 +29,9 @@ import "math"
 // * handle 3
 // * and recurse for skipping text1 i.e. 2 & 4 and then recurse for skipping text2 i.e. 1 & 4 taking max
 
+// complexity
+// * time = O(mn)
+// * space = O(mn) - could go even further by only using one row for tabulation
 func longestCommonSubsequence(text1 string, text2 string) int {
 	// initialize tabulation
 	tabulation := make([][]int, len(text1)+1)

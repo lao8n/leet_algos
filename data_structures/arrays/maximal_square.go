@@ -17,6 +17,7 @@ import "math"
 // if row of 1s then yes will add
 // if it is a column of 1s below will add
 
+// can improve further by only storing the last row
 func maximalSquare(matrix [][]byte) int {
 	// initialize tabulation - time O(mn) space O(mn)
 	tabulation := make([][]int, len(matrix)+1)

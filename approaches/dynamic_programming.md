@@ -24,3 +24,6 @@ Dynamic programming checklist
 
 Implementations
 * maybe dynamic programming solutions have been stored in either the recursion memoization sections or in data structures constant memory
+
+Complexity
+* O(n x F) where n is the number of possible states and F is the complexity of the recurrence relation.

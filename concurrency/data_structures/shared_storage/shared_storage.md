@@ -1,0 +1,1 @@
+Tradeoff = between coarse-grained synchronization for performance (synchronizing memory is expensive) vs fine-grained synchronization for fairness (a coarse greedy process could starve other processes)

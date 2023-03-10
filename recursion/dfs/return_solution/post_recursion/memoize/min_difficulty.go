@@ -8,7 +8,12 @@ import "math"
 // 3 things need to define
 // 1. base cases
 // 2. recurrence relation -> more options than standard dp as only constraint is have minimum 1 per day
+// (this is the key alarm bell that more complicated dp)
 // 3. state variables
+
+// complexity
+// time = O(n^2 d) because there are n d possible states (of lowest cost) and we need n time to calculate each one
+// space = O(n d) for all the n d states
 func minDifficulty(jobDifficulty []int, d int) int {
 	// setup data structures
 	memoizedCost := make([][]int, len(jobDifficulty))
@@ -27,7 +32,7 @@ func minDifficulty(jobDifficulty []int, d int) int {
 
 type data struct {
 	jobDifficulty []int
-	memoizedCost  [][]int // remaining index i & number of days d
+	memoizedCost  [][]int // remaining index j & number of days d
 }
 
 // state = index of remaining jobs, num of remaining days, memoized calculation & jobDifficulty

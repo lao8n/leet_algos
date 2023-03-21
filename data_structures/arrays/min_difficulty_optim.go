@@ -1,4 +1,4 @@
-package data_structures
+package data structures
 
 import "math"
 
@@ -33,41 +33,43 @@ func minDifficulty(jobDifficulty []int, d int) int {
 			memoizedCost[i][j] = -1
 		}
 	}
-	// [6] [-1]
-	// [6] [11]
-	// [6] [10]
-	// [6] [9]
-	// [6] [8]
-	// [-1][7]
-	// j = jobs done
-	// di = days done
+	// setup data structures
+	memoizedCostPreviousDay := make([]int, len(jobDifficulty))
+
 	// base cases - what we do on first day
 	maxCost := 0
 	for j := 0; j < len(jobDifficulty)-(d-1); j++ {
 		if jobDifficulty[j] > maxCost {
 			maxCost = jobDifficulty[j]
 		}
-		memoizedCost[j][0] = maxCost
+		memoizedCostPreviousDay[j] = maxCost
 	}
 
 	// tabulated cases - what we do on the dith day
 	for di := 1; di < d; di++ {
+		memoizedCostCurrentDay := make([]int, len(jobDifficulty))
 		for j := di; j <= len(jobDifficulty)-(d-di); j++ {
 			// recurrence relation
-			memoizedCost[j][di] = recurrence(j, di, jobDifficulty, memoizedCost)
+			memoizedCostCurrentDay[j] = recurrence(
+				j,
+				di,
+				jobDifficulty,
+				memoizedCostPreviousDay,
+			)
 		}
+		memoizedCostPreviousDay = memoizedCostCurrentDay
 	}
-	return memoizedCost[len(jobDifficulty)-1][d-1]
+	return memoizedCostPreviousDay[len(jobDifficulty)-1]
 }
 
-func recurrence(j int, di int, jobDifficulty []int, memoizedCost [][]int) int {
+func recurrence(j int, di int, jobDifficulty []int, memoizedCostPreviousDay []int) int {
 	lowestCost := math.MaxInt
 	maxCost := 0
 	for i := j; i >= di; i-- {
 		if jobDifficulty[i] > maxCost {
 			maxCost = jobDifficulty[i]
 		}
-		currentCost := maxCost + memoizedCost[i-1][di-1]
+		currentCost := maxCost + memoizedCostPreviousDay[i-1]
 		if currentCost < lowestCost {
 			lowestCost = currentCost
 		}

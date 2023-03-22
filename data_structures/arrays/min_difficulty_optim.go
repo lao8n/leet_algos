@@ -25,15 +25,6 @@ func minDifficulty(jobDifficulty []int, d int) int {
 		return -1
 	}
 	// setup data structures
-	// index of remaining jobs & num of days done (d - 1)
-	memoizedCost := make([][]int, len(jobDifficulty))
-	for i := range memoizedCost {
-		memoizedCost[i] = make([]int, d)
-		for j := 0; j < d; j++ {
-			memoizedCost[i][j] = -1
-		}
-	}
-	// setup data structures
 	memoizedCostPreviousDay := make([]int, len(jobDifficulty))
 
 	// base cases - what we do on first day
@@ -50,7 +41,7 @@ func minDifficulty(jobDifficulty []int, d int) int {
 		memoizedCostCurrentDay := make([]int, len(jobDifficulty))
 		for j := di; j <= len(jobDifficulty)-(d-di); j++ {
 			// recurrence relation
-			memoizedCostCurrentDay[j] = recurrence(
+			memoizedCostCurrentDay[j] = recurrenceOptim(
 				j,
 				di,
 				jobDifficulty,
@@ -62,7 +53,7 @@ func minDifficulty(jobDifficulty []int, d int) int {
 	return memoizedCostPreviousDay[len(jobDifficulty)-1]
 }
 
-func recurrence(j int, di int, jobDifficulty []int, memoizedCostPreviousDay []int) int {
+func recurrenceOptim(j int, di int, jobDifficulty []int, memoizedCostPreviousDay []int) int {
 	lowestCost := math.MaxInt
 	maxCost := 0
 	for i := j; i >= di; i-- {

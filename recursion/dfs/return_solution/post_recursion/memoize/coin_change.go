@@ -10,7 +10,10 @@ import "math"
 // 2. recurrence relation
 // 3. state variables
 
-// greedy algorithm where choose largest coin first?
+// greedy algorithm where choose largest coin first? doesn't work because might not be able to equal amount
+
+// complexity
+// time O(n x a) - a = amount and n is number of coins
 func coinChange(coins []int, amount int) int {
 	memoized := make([]int, amount+1)
 	return coinChangeMemoize(coins, amount, memoized)

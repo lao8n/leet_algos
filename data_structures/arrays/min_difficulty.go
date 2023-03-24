@@ -25,13 +25,9 @@ func minDifficulty(jobDifficulty []int, d int) int {
 		return -1
 	}
 	// setup data structures
-	// index of remaining jobs & num of days done (d - 1)
 	memoizedCost := make([][]int, len(jobDifficulty))
 	for i := range memoizedCost {
 		memoizedCost[i] = make([]int, d)
-		for j := 0; j < d; j++ {
-			memoizedCost[i][j] = -1
-		}
 	}
 	// [6] [-1]
 	// [6] [11]

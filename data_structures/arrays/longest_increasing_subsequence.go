@@ -8,7 +8,7 @@ package data_structures
 // recurrence state has 3 components
 // 1. base cases
 // 2. recurrence step
-// 3. state variables -> index of start of sequence (go from back) which returns max length
+// 3. state variables
 
 // complexity
 // time = O(n^2)

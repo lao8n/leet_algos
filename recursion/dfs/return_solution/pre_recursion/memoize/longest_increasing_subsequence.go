@@ -13,6 +13,9 @@ package data_structures
 // complexity
 // time = O(n^2)
 // space = O(n)
+
+// much easier to use a for loop here - if just going to have linear recursion might as well use
+// bottom up tabulation
 func lengthOfLIS(nums []int) int {
 	// longest seq ending at index j
 	memoized := make([]int, len(nums))

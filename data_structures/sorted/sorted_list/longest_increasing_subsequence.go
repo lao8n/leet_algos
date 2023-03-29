@@ -10,7 +10,8 @@ package data_structures
 // about the length)
 // this isn't usually possible because the earlier choice affects the later choices
 // however we can be greedy here because it is clear it is always better to replace
-// with a small number
+// with a small number whereas with longest common subsequence for example it is not
+// clear apriori which is better
 // rather than the second for loop we could optimize further by doing binary search on
 // the sorted slice to get O(n logn) time complexity
 

@@ -1,11 +1,11 @@
-package main
+// package main
+package data_structures
 
 import (
 	"fmt"
 )
 
-// package data_structures
-
+// adapted from algorithm 6.6 from bengio's deep learning txtbook p213
 type graph struct {
 	graph      map[int]*node
 	oper_table map[int]float64

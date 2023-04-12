@@ -29,7 +29,7 @@ Combinations
 * Order doesn't matter = how remove duplicates? 
     1. Set - problem is expensive `O(n)` and golang doesn't support slice keys.
     2. Only add if larger number e.g. `combination_sum.scala`
-    3. Reduce the list of candidates with `[i:] combination_sum.go` or `digits[:len(digits)-1] linear/letter_combinations.go` , 
+    3. Reduce the list of candidates with `[i:]` such as in`combination_sum.go` or `digits[:len(digits)-1] linear/letter_combinations.go` or `change_coin.go`
 * Base cases
     1. Empty list as base case `combination_sum.scala`
     2. Combination as base case, empty list if overshoot `combination_sum.go`

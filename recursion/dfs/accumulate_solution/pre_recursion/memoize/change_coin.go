@@ -13,6 +13,9 @@ import "fmt"
 // 3. state = amount
 
 // how to handle duplicates - if use smaller coin cannot use larger coins anymore
+
+// time complexity O(len(coins) x amount)
+// space O(len(coins) x amount)
 func change(amount int, coins []int) int {
 	s := state{memoized: make(map[string]int)}
 	return s.changeRecursive(amount, coins)

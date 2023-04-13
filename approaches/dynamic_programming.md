@@ -25,3 +25,11 @@ Complexity
 Tricks
 * State reduction - can we reduce it further? e.g. house robber don't need boolean of whether robbed previous house just need clever recurrence relation
 * Space reduction - only last few elements are needed
+
+Kadane's algorithm
+1. best = neg infinity
+2. current = 0
+3. for num in nums:
+    * current = max(current + num, num) // if current < 0 then reset
+    * best = max(best, current)
+4. return best

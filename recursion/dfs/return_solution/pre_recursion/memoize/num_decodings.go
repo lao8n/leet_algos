@@ -11,6 +11,9 @@ package recursion
 // 1. base cases
 // 2. recurrence
 // 3. state = string, 2 digit key flag -> number of ways - recursing forward but return solution - state is more complicated as need to check previous number as 1 can have up to 9 but 2 only up to 6
+// time complexity O(n) - memoization prunes the recursion tree
+// space complexity O(n)
+
 import "strconv"
 
 func numDecodings(s string) int {

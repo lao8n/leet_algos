@@ -3,11 +3,11 @@ Types of algorithm
 * Greedy algorithms = independent (not overlapping) subproblems that do not all have to be solved
 * Dynamic programming = interdependent (overlapping) subproblems combined for solution
 
-When to use Dynamic programming
+When to use dynamic programming
 * Max/min or number of ways 
 * Earlier decisions affect future decisions (i.e. cannot use greedy because of counter-example)
 
-Two approaches to Dynamic Programming
+Two approaches to dynamic programming
 * Bottom-up tabulation = start with the base cases and iterate up - adv: iteration faster than recursion
 * Top-down memoization = start with case you want and recurse down - adv: ordering of recursion does not matter, or if not all subproblems need to be solved. Memoization requires immutable key however so no slices
 

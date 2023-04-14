@@ -1,1 +1,0 @@
-known as boyer-moore majority vote algorithm

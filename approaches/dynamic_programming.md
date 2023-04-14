@@ -26,10 +26,16 @@ Tricks
 * State reduction - can we reduce it further? e.g. house robber don't need boolean of whether robbed previous house just need clever recurrence relation
 * Space reduction - only last few elements are needed
 
-Kadane's algorithm
+Kadane's algorithm = can find the maximum sum subarray (only useful if can have negative numbers)
+```
 1. best = neg infinity
 2. current = 0
 3. for num in nums:
     * current = max(current + num, num) // if current < 0 then reset
     * best = max(best, current)
 4. return best
+```
+
+Kadane examples
+* Minimum price and Profit `max_profit.go`
+* Max sub array `max_sub_array.go`, `max_profit.go`

@@ -6,6 +6,7 @@ Types of algorithm
 When to use dynamic programming
 * Max/min or number of ways 
 * Earlier decisions affect future decisions (i.e. cannot use greedy because of counter-example)
+* Pathing problems with a constraint to prevent moving backwards (o/w use BFS)
 
 Two approaches to dynamic programming
 * Bottom-up tabulation = start with the base cases and iterate up - adv: iteration faster than recursion
@@ -38,4 +39,4 @@ Kadane's algorithm = can find the maximum sum subarray (only useful if can have 
 
 Kadane examples
 * Minimum price and Profit `max_profit.go`
-* Max sub array `max_sub_array.go`, `max_profit.go`
+* Max sub array `max_sub_array.go`, `max_profit.go`, `max_circ_subarray_sum.go`

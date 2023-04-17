@@ -6,6 +6,9 @@ package data_structures
 // dynamic programming has 2 approaches
 // 1. top-down recursion with memoization
 // 2. bottom up iteration with tabulation -> for pathing typically easier
+
+// time complexity O(mn)
+// space complexity O(mn) -> can optimise to O(n)
 func uniquePaths(m int, n int) int {
 	tabulation := make([][]int, m)
 	for i, _ := range tabulation {

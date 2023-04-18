@@ -27,7 +27,7 @@ Tricks
 * State reduction - can we reduce it further? e.g. house robber don't need boolean of whether robbed previous house just need clever recurrence relation
 * Space reduction - only last few elements are needed
 
-Kadane's algorithm = can find the maximum sum subarray (only useful if can have negative numbers)
+Kadane's algorithm = can find the maximum sum subarray (only useful if can have negative numbers) - single transaction
 ```
 1. best = neg infinity
 2. current = 0

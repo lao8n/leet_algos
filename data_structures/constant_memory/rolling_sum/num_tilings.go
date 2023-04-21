@@ -28,7 +28,7 @@ func numTilings(n int) int {
 		return 2
 	}
 	for i := 2; i < n; i++ {
-		// choose one space way - can only get to one space way from two space way
+		// choose one space way
 		// [] + [][] -> [][][]
 		// []   []      [][]
 		// or

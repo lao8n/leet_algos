@@ -1,7 +1,5 @@
 package data_structures
 
-import "fmt"
-
 // interconnected problems combined for a solution - esp as num of ways -> dynamic programming
 
 // 2 approaches
@@ -48,7 +46,6 @@ func numTilings(n int) int {
 		// move along
 		oneFilledWays[1], oneFilledWays[2] = oneFilledWays[0], oneFilledWays[1]
 		twoFilledWays[1], twoFilledWays[2] = twoFilledWays[0], twoFilledWays[1]
-		fmt.Println(oneFilledWays, twoFilledWays)
 	}
 	return twoFilledWays[1]
 }

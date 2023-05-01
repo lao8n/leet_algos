@@ -28,3 +28,12 @@ Process: 1. Bottom up heapification O(n) 2. Removal of n elements which is O(n l
 However heapsort is undesirable because it 1. Is not a stable sort, 2. Bad cache locality properties because it swaps elements based on locations in heaps with read operations to access indices in random order
 2. Top-K Problem = 1. Bottom up heapification O(n) 2. Removal of k elements which is O(k logn). So combined complexity is O(k logn + n). There is also a variation where if you want smallest you build a max heap (and vice-versa) of size k elements and compare remaining n-k elements with top of heap where 1. Bottom up heapification is O(k) 2. Removal of up to (n-k) elements which is O((n-k) log k + k) = O(n log k)
 3. K-th element = Exactly the same as Top-K
+
+Approaches to Go Heap
+```
+type Interface interface {
+		sort.Interface
+		Push(x interface{})
+		Pop() interface{}
+}
+```

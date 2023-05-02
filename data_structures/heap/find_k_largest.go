@@ -8,7 +8,7 @@ import (
 
 // heap has two steps
 // 1. heapification O(n)
-// 2. removal of k elements which is O(k logn)
+// 2. removal of k elements which is O(k log n)
 
 // two approaches to heap in golang
 // 1. interface approach

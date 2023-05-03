@@ -4,11 +4,12 @@ import "math/rand"
 
 // kth largest -> sort
 // with divide & conquer or conquer then divide -> latter = quick select
+// we go indirectly by finding n-k smallest
 func findKthLargest(nums []int, k int) int {
-	return quickSelect(nums, 0, len(nums)-1, k-1)
+	return quickSelect(nums, 0, len(nums)-1, len(nums)-k)
 }
 
-func quickSelect(nums []int, left, right, kLargest int) int {
+func quickSelect(nums []int, left, right, kSmallest int) int {
 	// base cases
 	if left == right {
 		return nums[left]
@@ -18,13 +19,13 @@ func quickSelect(nums []int, left, right, kLargest int) int {
 	pivotIndex := left + rand.Intn(right-left) // necessary for sorted data
 	numLeftOfPivot := partition(nums, left, right, pivotIndex)
 
-	if kLargest == numLeftOfPivot {
-		return nums[kLargest]
+	if kSmallest == numLeftOfPivot {
+		return nums[kSmallest]
 	}
-	if kLargest < numLeftOfPivot {
-		return quickSelect(nums, left, numLeftOfPivot-1, kLargest)
+	if kSmallest < numLeftOfPivot {
+		return quickSelect(nums, left, numLeftOfPivot-1, kSmallest)
 	}
-	return quickSelect(nums, numLeftOfPivot+1, right, kLargest)
+	return quickSelect(nums, numLeftOfPivot+1, right, kSmallest)
 }
 
 func partition(nums []int, left, right, pivotIndex int) int {
@@ -34,7 +35,7 @@ func partition(nums []int, left, right, pivotIndex int) int {
 	// 2. all elements to left
 	swapIndex := left
 	for i := left; i <= right; i++ {
-		if nums[i] > pivot {
+		if nums[i] < pivot {
 			nums[i], nums[swapIndex] = nums[swapIndex], nums[i]
 			swapIndex++
 		}

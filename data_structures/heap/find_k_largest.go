@@ -34,5 +34,5 @@ func (h *Heap) Pop() interface{} {
 	return popped
 }
 func (h Heap) Len() int           { return len(h) }
-func (h Heap) Less(i, j int) bool { return h[i] > h[j] }
+func (h Heap) Less(i, j int) bool { return h[i] > h[j] } // swap these around
 func (h Heap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }

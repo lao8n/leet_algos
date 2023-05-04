@@ -36,4 +36,18 @@ type Interface interface {
 		Push(x interface{})
 		Pop() interface{}
 }
+
+type Heap []freq
+
+func (h *Heap) Push(x interface{}) { *h = append(*h, x.(freq)) }
+// note in popped we take n-1 value as end because the source code does a swap first between 0 and n-1
+// if we want min value need to go to 0
+func (h *Heap) Pop() interface{} {
+	previous, n, popped := *h, h.Len(), freq{}
+	*h, popped = previous[0:n-1], previous[n-1]
+	return popped
+}
+func (h Heap) Len() int           { return len(h) }
+func (h Heap) Less(i, j int) bool { return h[i].freq < h[j].freq } // make it greater than
+func (h Heap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 ```

@@ -7,8 +7,9 @@ import "container/heap"
 // 1. heapification O(n) - although in our case it is O(n logk) for insert
 // 2. remove min O(1)
 
-// what we want:
-// a min heap of size k, where if the heap is full we only insert if it is bigger than the minimum
+// what we want: largest elements with smallest at min
+// 1. min heap of size k but then need to only insert if larger element
+// 2. min heap of any size but pop until size k
 type KthLargest struct {
 	k    int
 	heap Heap

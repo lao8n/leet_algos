@@ -29,6 +29,11 @@ However heapsort is undesirable because it 1. Is not a stable sort, 2. Bad cache
 2. Top-K Problem = 1. Bottom up heapification O(n) 2. Removal of k elements which is O(k logn). So combined complexity is O(k logn + n). There is also a variation where if you want smallest you build a max heap (and vice-versa) of size k elements and compare remaining n-k elements with top of heap where 1. Bottom up heapification is O(k) 2. Removal of up to (n-k) elements which is O((n-k) log k + k) = O(n log k)
 3. K-th element = Exactly the same as Top-K
 
+Approaches for Kth largest element
+* 1. Min heap of any size -> remove n-k elements (equivalently until heap of size k) -> kth largest
+* 2. Min heap of size k -> only insert if larger than minimum (harder with negative numbers)
+* 2. Max heap -> remove k elements
+
 Approaches to Go Heap
 ```
 type Interface interface {

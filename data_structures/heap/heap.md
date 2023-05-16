@@ -30,9 +30,9 @@ However heapsort is undesirable because it 1. Is not a stable sort, 2. Bad cache
 3. K-th element = Exactly the same as Top-K
 
 Approaches for Kth largest element
-* 1. Min heap of any size -> remove n-k elements (equivalently until heap of size k) -> kth largest
+* 1. Min heap of size n -> remove n-k elements (equivalently until heap of size k) -> kth largest
 * 2. Min heap of size k -> only insert if larger than minimum (harder with negative numbers)
-* 2. Max heap -> remove k elements
+* 3. Max heap of size n -> remove k elements
 
 Approaches to Go Heap
 ```

@@ -1,7 +1,7 @@
 // shortest distance -> bfs
 
 // choices
-// 1. accumulate solution forward or recurse backwards?
+// 1. update self or update neighbours?
 // 2. from each location or the gate?
 // 3. how memoize? based upon value? queue memoized or not?
 

@@ -6,7 +6,7 @@ Types of algorithm
 When to use dynamic programming
 * Max/min or number of ways 
 * Earlier decisions affect future decisions (i.e. cannot use greedy because of counter-example)
-* Pathing problems with a constraint to prevent moving backwards (o/w use BFS)
+* Pathing problems with a constraint such as not visiting the same square twice to prevent moving backwards (o/w use BFS)
 
 Two approaches to dynamic programming
 * Bottom-up tabulation = start with the base cases and iterate up - adv: iteration faster than recursion

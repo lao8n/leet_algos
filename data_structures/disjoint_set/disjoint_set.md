@@ -1,7 +1,13 @@
-Disjoint Set Union (DSU) = slowly merge individual points into connected components
+Disjoint Set Union (DSU) 
+Key Idea = turn undirected graph into a directed graph with a single root, then compare roots to see if connected
+Approach = slowly merge individual points into connected components
 - methods: 
-  1. find() = two nodes have the same id if in the same component - basically use a tree
+  1. find() = two nodes have the same id if in the same component i.e. the same root
   2. union() = connect two components together
+
+2 approaches
+1. Quick Find: O(1) find but O(n) union -> store root so union is more expensive but easy to see what root is
+2. Quick Union: O(1) union but O(n) find -> store parent so have to recurse to root, but faster union
 
 Naive find implementation
 ```

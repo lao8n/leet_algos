@@ -9,6 +9,11 @@ Approach = slowly merge individual points into connected components
 1. Quick Find: O(1) find but O(n) union -> store root so union is more expensive but easy to see what root is
 2. Quick Union: O(1) union but O(n) find -> store parent so have to recurse to root, but faster union
 
+Analogy
+* have a room full of people, how to see if people are related? (assume only one parent e.g. just father's side)
+* one approach is to have every person list their 10th paternal ancestor - i.e. quick find
+* other approach is just to have every person list their direct father.
+
 Naive find implementation
 ```
 func find(x: Node) {

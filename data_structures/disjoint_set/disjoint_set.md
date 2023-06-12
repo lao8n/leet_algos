@@ -10,7 +10,7 @@ Approach = slowly merge individual points into connected components
 2. Quick Union: O(1) union but O(n) find -> store parent so have to recurse to root, but faster union
 
 Best approach
-* Quick Union
+* Quick Union = Overall time complexity of Quick Find is O(n^2) (O(n) per element), versus Quick Union <= O(n^2) (O(n) is the worst case)
 
 Analogy
 * have a room full of people, how to see if people are related? (assume only one parent e.g. just father's side)

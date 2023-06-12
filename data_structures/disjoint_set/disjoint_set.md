@@ -34,7 +34,7 @@ func union(x, y) {
 ```
 Improvements
 1. Path compression = replace with `parent[x] = find(parent[x])` to remember calculation 
-2. Union-by-rank = choose whether to `parent[x] = parent[y]` or `parent[y] = parent[x]` based upon smaller joining larger
+2. Union-by-rank = choose whether to `parent[x] = parent[y]` or `parent[y] = parent[x]` based upon smaller joining larger. Only relevant for Quick Union.
 
 Complexity
 * Time: `O(mxn)` required by the time complexity where at most `mxn` islands need to be unioned.

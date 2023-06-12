@@ -30,8 +30,15 @@ class UnionFind {
             return x;
         }
 
+        // O(n)
+        int find(int x) {
+            while (x != root[x]) {
+            x = root[x];
+            }
+            return x;
+        }
 
-        // O(1)
+        // O(n) - O(1 itself but O(n) because of find
         void unionSet(int x, int y){
             int rootX = find(x);
             int rootY = find(y);
@@ -40,7 +47,7 @@ class UnionFind {
             }
         }
 
-        // O(1)
+        // O(n) - O(1 itself but O(n) because of find
         bool connected(int x, int y) {
             return find(x) == find(y);
         }

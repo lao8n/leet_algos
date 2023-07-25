@@ -1,4 +1,4 @@
-package dynamic_programming
+package data_structures
 
 // dp - two pointers i = len of substring, j = partition index
 // complexity - O(n^3) two for loops O(n^2) and substring computation is O(n), space complexity O(n) length of dp array

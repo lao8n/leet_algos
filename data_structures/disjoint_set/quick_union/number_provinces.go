@@ -17,7 +17,7 @@ func findCircleNum(isConnected [][]int) int {
 		rank: rankSlice,
 	}
 	for i, city := range isConnected {
-		for j, connection := range city {
+		for j, connection := range city { // more efficient is to just check half the table
 			if i != j && connection == 1 {
 				ds.union(i, j)
 			}

@@ -1,4 +1,4 @@
-package dynamic_programming
+package data_structures
 
 // dynamic programming = don't know greedily how many characters to match * for, however
 // do not have to try each matching independently can memoize computation in a grid

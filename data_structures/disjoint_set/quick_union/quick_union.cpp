@@ -33,7 +33,7 @@ class UnionFind {
         // O(n)
         int find(int x) {
             while (x != root[x]) {
-            x = root[x];
+                x = root[x];
             }
             return x;
         }

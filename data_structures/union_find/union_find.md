@@ -1,4 +1,4 @@
-Disjoint Set Union (DSU) 
+Union Find (also Disjoint Set)
 Key Idea = turn undirected graph into a directed graph with a single root, then compare roots to see if connected
 Approach = slowly merge individual points into connected components
 - methods: 

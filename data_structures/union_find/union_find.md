@@ -37,5 +37,5 @@ Improvements
 2. Union-by-rank = choose whether to `parent[x] = parent[y]` or `parent[y] = parent[x]` based upon smaller joining larger. Only relevant for Quick Union.
 
 Complexity
-* Time: `O(mxn)` required by the time complexity where at most `mxn` islands need to be unioned.
-* Space: `O(mxn)` required by the `UnionFind` `Parent` and `Size` are `mxn` 
+* Time: `O(aN)` for find, union and connected although `O(n)` for constructor. `aN` is the Inverse Ackermann function which in practice is `O(1)` on average 
+* Space: `O(N)` 

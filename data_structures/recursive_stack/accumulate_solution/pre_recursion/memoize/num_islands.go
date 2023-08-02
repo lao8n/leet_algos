@@ -1,4 +1,4 @@
-package leet_algos
+package data_structures
 
 // time complexity = O(MxN) -> every possible starting point
 // space complexity = O(MxN) worst case where all land and dfs searches MxN deep

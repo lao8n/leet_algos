@@ -1,4 +1,4 @@
-package leet_algos
+package data_structures
 
 /**
  * Definition for a Node.

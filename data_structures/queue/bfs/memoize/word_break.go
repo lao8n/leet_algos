@@ -1,4 +1,4 @@
-package recursion
+package data_structures
 
 // bfs
 func wordBreak(s string, wordDict []string) bool {

@@ -1,4 +1,4 @@
-package recursion
+package data_structures
 
 func numIslands(grid [][]byte) int {
 	if len(grid) == 0 {

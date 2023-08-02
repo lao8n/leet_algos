@@ -9,7 +9,7 @@
 // due to excessive concurrent calls to links.Extract.
 //
 // Also, it never terminates because the worklist is never closed.
-package recursion
+package data_structures
 
 import (
 	"fmt"

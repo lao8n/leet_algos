@@ -4,6 +4,7 @@ package data_structures
 // use a stack - indirectly using recursion
 // recursion - 1. accumulate or 2. return -> accumulate path but return bool
 // track where been 1. memoization - global rather than local
+// time complexity O(V + E) = O(E) for creating adjacency list and O(V) for visiting each vertex once
 func validPath(n int, edges [][]int, source int, destination int) bool {
 	edgesMap := make(map[int][]int, n)
 	for _, edge := range edges {

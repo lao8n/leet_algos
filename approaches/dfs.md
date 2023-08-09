@@ -1,4 +1,11 @@
 Time Complexity = O(E+V) = O(2E) + O(V) because every node is visited once and every edge is considered twice
+Space Complexity = O(V) - max size of stack
+
+Use when:
+* Path finding (but don't care about shortest path) as more space efficient
+* For pre-order and post-order traversal
+* Topological sorting
+* Wider graphs (as opposed to deeper)
 
 Choice between
 * naive 

@@ -5,3 +5,8 @@ Use when:
 * Order level traversal of vertices
 * Shortest path between two points
 * Deeper graphs (as opposed to wider)
+
+Steps
+1. Build adjacency list & memoized set
+2. Setup queue and loop through until empty
+3. Check for base cases and neighbours

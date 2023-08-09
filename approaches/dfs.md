@@ -12,6 +12,11 @@ Choice between
 * cache per search
 * cache over all searches (memoization)
 
+Steps
+1. Build adjacency list & memoized set
+2. Decide whether to return or accumulate solution 
+3. Write recursive function with bases cases and neighbours
+
 Algorithm
 ```
 func DFS(cur node, target node, visited map[int]bool) bool {

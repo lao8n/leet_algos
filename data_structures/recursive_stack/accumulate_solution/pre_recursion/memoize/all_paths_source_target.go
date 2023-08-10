@@ -3,6 +3,9 @@ package data_structures
 // approach: dfs with backtracking for each path
 // recursion 1. accumulate paths 2. return? -> accumulate single path return all paths
 // memoization 1. yes to track -> in place or separate track?
+// time complexity = O(2^V *V) for a dag where O(V) per path for O(2^V *V)
+// space complexity = O(V)
+// argument is that every new node doubles the number of possible paths
 func allPathsSourceTarget(graph [][]int) [][]int {
 	return recurse(graph, 0, make([]int, 0), make(map[int]bool))
 }

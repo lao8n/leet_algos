@@ -3,7 +3,7 @@ Space Complexity = O(V) - max size of stack
 
 Use when:
 * Path finding (but don't care about shortest path) as more space efficient
-* For pre-order and post-order traversal
+* For pre-order, in order and post-order traversal
 * Topological sorting
 * Wider graphs (as opposed to deeper)
 

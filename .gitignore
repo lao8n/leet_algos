@@ -3,4 +3,4 @@ usememory/map/applied/map_value/coremont/target/*
 usememory/map/applied/map_value/coremont/project/*
 .scala-build/
 .bsp/
-.DS_Store/
+.DS_Store

@@ -7,7 +7,7 @@ Implementations of Priority Queues
 
 Definition
 * Complete (all levels filled except lowest - and then from left) binary (max two children per node) tree
-* For Min Heap the alue of each node must be <= the value of its child nodes. For Max Heap >=
+* For Min Heap the value of each node must be <= the value of its child nodes. For Max Heap >=
 
 Insertion 
 * Add node as left-most child

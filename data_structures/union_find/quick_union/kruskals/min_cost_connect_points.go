@@ -25,7 +25,7 @@ func minCostConnectPoints(points [][]int) int {
 			pointJ := point{x: points[j][0], y: points[j][1]}
 			e := edge{i: pointI,
 				j:    pointJ,
-				cost: manhattanDistance(point1, points[j])}
+				cost: manhattanDistance(pointI, pointJ)}
 			edges = append(edges, e)
 		}
 	}
@@ -103,13 +103,12 @@ func (uf *uf) connected(i point, j point) bool {
 	return iRoot == jRoot
 }
 
-func manhattanDistance(i []int, j []int) int {
-	xi, yi, xj, yj := i[0], i[1], j[0], j[1]
-	xDist := xi - xj
+func manhattanDistance(i point, j point) int {
+	xDist := i.x - j.x
 	if xDist < 0 {
 		xDist *= -1
 	}
-	yDist := yi - yj
+	yDist := i.y - j.y
 	if yDist < 0 {
 		yDist *= -1
 	}

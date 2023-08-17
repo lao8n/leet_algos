@@ -3,6 +3,14 @@ package data_structures
 import "container/heap"
 
 // prim's algorithm
+// 1. create visited and adjacency maps
+// 2. heap on first node
+// 3. loop where add minimum edge that doesn't include visited nodes, add neighbour edges to heap
+// 4. stop when visited all nodes
+
+// time complexity O(n^2 log(n)) = each push/pop takes log(n) for n^2 edges (n nodes)
+// space complexity O(n^2) = size of heap
+// optimization = store array of minimum cost to reach each node for O(n^2) and O(n)
 func minCostConnectPoints(points [][]int) int {
 	// create visited map
 	visited := make(map[point]bool, len(points))
@@ -14,7 +22,7 @@ func minCostConnectPoints(points [][]int) int {
 		visited[pointI] = false // not yet visited
 		for j := i + 1; j < len(points); j++ {
 			pointJ := point{x: points[j][0], y: points[j][1]}
-			e := edge{i: pointI, j: pointJ, cost: manhattanDistance(point1, points[j])}
+			e := edge{i: pointI, j: pointJ, cost: manhattanDistance(pointI, pointJ)}
 			adjacencyMap[pointI] = append(adjacencyMap[pointI], e)
 			adjacencyMap[pointJ] = append(adjacencyMap[pointJ], e)
 		}
@@ -85,13 +93,12 @@ func (h Heap) Len() int           { return len(h) }
 func (h Heap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h Heap) Less(i, j int) bool { return h[i].cost < h[j].cost }
 
-func manhattanDistance(i []int, j []int) int {
-	xi, yi, xj, yj := i[0], i[1], j[0], j[1]
-	xDist := xi - xj
+func manhattanDistance(i point, j point) int {
+	xDist := i.x - j.x
 	if xDist < 0 {
 		xDist *= -1
 	}
-	yDist := yi - yj
+	yDist := i.y - j.y
 	if yDist < 0 {
 		yDist *= -1
 	}

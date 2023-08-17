@@ -9,9 +9,17 @@ Cut = is a partition of vertices in a graph into two disjoint subsets.
 Crossing = is an edge that connects a vertex in one set with a vertex in the other set.
 Cut property = For any cut C of the graph, if the weight of an edge E in the cut-set of C is strictly smaller than the weights of all other edges of the cut-set of C, then this edge belongs to all MSTs of the graph
 
-Kruskal's algorithm = heap + union find
+Kruskal's algorithm = sorted edges + union find
 1. sort all edges by weight
 2. add minimum edge that doesn't produce cycle
 3. repeat until V-1 edges added 
-Time complexity O(E logE) with O(E logE) for sort, O(Ea(V)) for cycle (connected components) check
-Space complexity O(V) V
+Time complexity = O(E logE) with O(E logE) for sort, O(Ea(V)) for cycle (connected components) check
+Space complexity = O(V) V
+
+Prim's algorithm = heap
+1. divide nodes into visited and unvisited
+2. of the visited set add its minimum edge
+3. repeat until all vertices are added
+Time complexity (Binary heap) = O(E logV) with O(V + E) to traverse vertices, extracting min element is O(logV) so overall is O(V + E) * O(logV) = O(E log V)
+Time complexity (Fibonacci heap) = O(E + V logV)  with O(logV) to extract min element and O(1) key decreasing operation
+Space complexity = O(V) vertices in data structure

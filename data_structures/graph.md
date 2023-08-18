@@ -9,6 +9,9 @@ Cut = is a partition of vertices in a graph into two disjoint subsets.
 Crossing = is an edge that connects a vertex in one set with a vertex in the other set.
 Cut property = For any cut C of the graph, if the weight of an edge E in the cut-set of C is strictly smaller than the weights of all other edges of the cut-set of C, then this edge belongs to all MSTs of the graph
 
+Similarities
+* all use greedy approaches which can be proven by proof by contradiction (if non-greedy path was shorter)
+
 Kruskal's algorithm = sorted edges + union find
 1. sort all edges by weight
 2. add minimum edge that doesn't produce cycle
@@ -24,3 +27,12 @@ Time complexity (Binary heap) = O(E logV) with O(V + E) to traverse vertices, ex
 Time complexity (Fibonacci heap) = O(E + V logV)  with O(logV) to extract min element and O(1) key decreasing operation
 Space complexity = O(V) vertices in data structure
 Note = don't need deletable heap, as can just keep adding new nodes
+
+Dijkstra's algorithm = bfs with heap
+1. build adjacency list of neighbours
+2. build map of cost of path initialized to MAXINT
+3. build heap of neighbours 
+4. do bfs on 
+Time complexity = O(E + E logV) for binary heap rather than O(E V) for bfs
+Space complexity = O(E + V)
+Note = only works on weighted graphs with non-negative weights

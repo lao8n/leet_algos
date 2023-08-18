@@ -5,6 +5,9 @@ import (
 	"math"
 )
 
+// Time complexity = O(E + E logV) for binary heap rather than O(E V) for bfs
+// Space complexity = O(E + V)
+
 func networkDelayTime(times [][]int, n int, k int) int {
 	// create adjacency list
 	adjList := make(map[int][]edge, 0)

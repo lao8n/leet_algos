@@ -23,3 +23,4 @@ Prim's algorithm = heap
 Time complexity (Binary heap) = O(E logV) with O(V + E) to traverse vertices, extracting min element is O(logV) so overall is O(V + E) * O(logV) = O(E log V)
 Time complexity (Fibonacci heap) = O(E + V logV)  with O(logV) to extract min element and O(1) key decreasing operation
 Space complexity = O(V) vertices in data structure
+Note = don't need deletable heap, as can just keep adding new nodes

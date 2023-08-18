@@ -3,7 +3,7 @@ Space Complexity = O(V) - max size of queue
 
 Use when:
 * Order level traversal of vertices
-* Shortest path between two points
+* Shortest path between two points - only for unweighted graphs
 * Deeper graphs (as opposed to wider)
 
 Steps

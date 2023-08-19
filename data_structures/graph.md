@@ -36,3 +36,6 @@ Dijkstra's algorithm = bfs with heap
 Time complexity = O(E + E logV) for binary heap rather than O(E V) for bfs
 Space complexity = O(E + V)
 Note = only works on weighted graphs with non-negative weights
+
+Bellman-Ford = 
+Note = if n nodes and no negative weight cycle shortest path between two nodes is n-1, if negative weight cycle no solution

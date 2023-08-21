@@ -12,6 +12,8 @@ Cut property = For any cut C of the graph, if the weight of an edge E in the cut
 Similarities
 * all use greedy approaches which can be proven by proof by contradiction (if non-greedy path was shorter)
 
+Minimum spanning tree approaches
+
 Kruskal's algorithm = sorted edges + union find
 1. sort all edges by weight
 2. add minimum edge that doesn't produce cycle
@@ -28,6 +30,7 @@ Time complexity (Fibonacci heap) = O(E + V logV)  with O(logV) to extract min el
 Space complexity = O(V) vertices in data structure
 Note = don't need deletable heap, as can just keep adding new nodes
 
+Single shortest path approaches
 Dijkstra's algorithm = bfs with heap
 1. build adjacency list of neighbours
 2. build map of cost of path initialized to MAXINT
@@ -37,5 +40,14 @@ Time complexity = O(E + E logV) for binary heap rather than O(E V) for bfs
 Space complexity = O(E + V)
 Note = only works on weighted graphs with non-negative weights
 
-Bellman-Ford = 
-Note = if n nodes and no negative weight cycle shortest path between two nodes is n-1, if negative weight cycle no solution
+Bellman-Ford = optimized dynamic programming
+1. rather than a V^2 table of number of edges for rows and shortest path to node in columns instead have just two rows current and previous
+2. in each loop make sure to copy not assign previous to current
+3. further optimise by using at most n-1 loops through single table, bailing if no updates, only works if no constraint on number of edges used
+Time complexity = O(V * E) iterate through all vertices and relax every edge
+Space complexity = O(V) two arrays each of length V
+Note = if n nodes and no negative weight cycle shortest path between two nodes is n-1, if negative weight cycle no solution. can detect negative weight cycle if nth relaxation produces any lower cost than n-1 (which should be optimal already)
+
+Shortest Path Faster Algorithm (SPFA) = Bellman-Ford + queue
+Time complexity = O(V * E) iterate through all vertices and relax every edge
+Space complexity = O(V) store V vertices

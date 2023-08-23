@@ -31,6 +31,7 @@ Space complexity = O(V) vertices in data structure
 Note = don't need deletable heap, as can just keep adding new nodes
 
 Single shortest path approaches
+
 Dijkstra's algorithm = bfs with heap
 1. build adjacency list of neighbours
 2. build map of cost of path initialized to MAXINT
@@ -51,3 +52,10 @@ Note = if n nodes and no negative weight cycle shortest path between two nodes i
 Shortest Path Faster Algorithm (SPFA) = Bellman-Ford + queue
 Time complexity = O(V * E) iterate through all vertices and relax every edge
 Space complexity = O(V) store V vertices
+
+Kahn's Topological Sorting Algorithm = queue + in-degree map
+1. Build adjacency list
+2. Loop through queue of zero-degree vertices, decrementing their out-degree vertices
+Time complexity = O(V + E) - adjacency list is O(E), loop through every vertex and decrement every edge for O(V + E)
+Space complexity = O(V + E) - adjacency list is O(E), in-degree is O(V) space, queue is O(V)
+Note = in-degree number of arrows pointing in, out-degree number of arrows pointing out. Only works with acyclic, directed graphs

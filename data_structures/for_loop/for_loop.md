@@ -8,7 +8,7 @@ Space complexity = O(0) in place
 
 **Types**
 
-Nested for loops = for `n` iterations move sort one number
+**Nested for loops** = for `n` iterations move sort one number
 ```
 // bubble_sort.go
 for i := 0; i < n; i++ {
@@ -30,4 +30,6 @@ for i := 1; i < len(arr); i++ {
     arr[j+1] = elementToSort
 }
 ```
-For insertion sort you have `sorted | unsorted` where you pick the first element in unsorted and then find where it fits in the sorted section, and you have to shift all the larger elements along
+For insertion sort you have `sorted | unsorted` where you pick the first element in unsorted and then find where it fits in the sorted section, and you have to shift all the larger elements along.
+
+Note `rotate.go` takes this even further where each set to be sorted is actually a divisor set.

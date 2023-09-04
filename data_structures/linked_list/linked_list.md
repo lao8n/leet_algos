@@ -8,7 +8,7 @@ Space complexity = `O(n)`
 
 **Types**
 
-Linked list = keep calling `next()` until no longer `hasNext()`
+**Linked list** = keep calling `next()` until no longer `hasNext()`
 ```
 // peeking_iterator.go
 if this.iterator.hasNext() {

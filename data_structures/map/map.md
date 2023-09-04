@@ -1,6 +1,6 @@
 **Map**
 
-Definition = map is a data structure with keys and values for O(1) insertion and lookup. Most common example uses hashing function to map from unique key to an index in an array.
+Definition = a map is a data structure with keys and values for O(1) insertion and lookup. Most common example uses hashing function to map from unique key to an index in an array.
 
 Time complexity = O(n) creation, although O(1) lookup
 
@@ -39,7 +39,7 @@ for _, sc := range s {
     anagramMap[sc]++
 }
 ```
-Note cannot use slice as key in map, but can use array as in `groupAnagrams.go` where `m := make(map[[26]int][]string)`. When combined with cumulative sum can always be used to find the number of sums equalling a value as in `sub_array_sums.go``
+Note cannot use slice as key in map, but can use array as in `groupAnagrams.go` where `m := make(map[[26]int][]string)`. When combined with cumulative sum can always be used to find the number of sums equalling a value as in `sub_array_sums.go`
 
 Map as set = golang doesn't have a set so just use map instead
 ```

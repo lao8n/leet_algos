@@ -1,5 +1,8 @@
 package data_structures
 
+// Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
+// A subarray is a contiguous non-empty sequence of elements within an array.
+
 func subarraySum(nums []int, k int) int {
 	// two-pointers doesn't work because of negative numbers
 	// 1. naive try every start and stop index for O(n^3)

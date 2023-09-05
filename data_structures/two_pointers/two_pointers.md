@@ -1,6 +1,6 @@
-**For Loop**
+**Two pointers**
 
-Definition = way to iterate over the elements of a data structure
+Definition = way to track two points in a data structure
 
 Time complexity = `O(n)`. For bubble sort and insertion sort `O(n^2)`, but slightly better for insertion as it is an online algorithm (doesn't need full list), and makes less swaps on average
 
@@ -8,7 +8,7 @@ Space complexity = O(0) in place
 
 **Types**
 
-**Nested for loops** = for `n` iterations move sort one number
+**Two pointers for sorting** = for `n` iterations move sort one number
 ```
 // bubble_sort.go
 for i := 0; i < n; i++ {

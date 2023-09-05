@@ -1,8 +1,8 @@
 **Rolling Memory**
 
-Definition = 
+Definition = Whilst looping through input data update some memory with rolling sums, products, counts and maxes
 
-Time complexity = 
+Time complexity = Typically `O(n)` as still need to iterate through loop
 
 Space complexity = `O(1)` for rolling sum, max etc. Rolling arrays need `O(n)`
 

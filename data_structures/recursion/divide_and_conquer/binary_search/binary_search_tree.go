@@ -1,4 +1,4 @@
-package divide_and_conquer
+package data_structures
 
 import "fmt"
 

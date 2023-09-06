@@ -9,18 +9,6 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func maxDepth(root *TreeNode) int {
-	if root == nil {
-		return 0
-	}
-	leftDepth := maxDepth(root.Left)
-	rightDepth := maxDepth(root.Right)
-	if leftDepth > rightDepth {
-		return leftDepth + 1
-	}
-	return rightDepth + 1
-}
-
 // accumulator is much faster because it is tail recursive
 // https://medium.com/@meeusdylan/tail-recursion-in-go-fb5cf69a0f26
 // even though no tail-call optimisation

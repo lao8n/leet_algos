@@ -1,4 +1,4 @@
-package divide_and_conquer
+package data_structures
 
 // naive approach: just loop through all numbers to check if existence O(n)
 // strictly ascending: loop through until reach number that is too larger

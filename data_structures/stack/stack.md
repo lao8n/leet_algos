@@ -2,9 +2,9 @@
 
 Definition = a LIFO data structures that supports push and pop operations
 
-Time complexity = 
+Time complexity = `O(n)` for each element popped once
 
-Space complexity 
+Space complexity = `O(n)` for max size of data structure
 
 **Types**
 

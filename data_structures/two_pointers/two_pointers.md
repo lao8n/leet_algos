@@ -4,7 +4,7 @@ Definition = way to track two points in a data structure
 
 Time complexity = `O(n)` for managing the two pointers
 
-Space complexity = O(0) in place
+Space complexity = `O(0)` in place
 
 **Types**
 

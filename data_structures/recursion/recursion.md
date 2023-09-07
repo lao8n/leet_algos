@@ -87,3 +87,16 @@ if text1[0] == text2[0] {
 These longest questions involving building longest, but do not accumulate the sequence instead embedding it in the memoized `map[string]map[string]int` assigning `memoized[text1][text2] = longest`. Similarly for `longest_increasing_path.go` we have `memoizedPaths [][]int` whereas `longest_increasing_subsequence.go` we just use `memoized []int`
 
 **Dynamic programming: Number of Ways**
+```
+// change_coin.go
+key := fmt.Sprintf("%d %d", len(coins), amount)
+if memAmount, ok := s.memoized[key]; ok {
+    return memAmount
+}
+numWays := 0
+for i, c := range coins {
+    numWays += s.changeRecursive(amount - c, coins[i:]) 
+}
+s.memoized[key] = numWays
+```
+Rather than choosing between options as in max/min questions instead we sum where key trick to prevent duplicates is to use `coins[i:]`. `coin_change.go` expands the number of ways question into a minimization problem to choose the `leastNumCoins`. `num_decodings.go` sums across one and digit cases and `num_ways.go` adds `totalNumWays := diffColourNumWays + sameColourNumWays`. In multiple cases we memoize on a string key using `fmt.Sprintf` for example `key := fmt.Sprintf("%d %d", nRemain, nSameColour)`

@@ -42,7 +42,6 @@ func (g *graph) backward_pass(n *node) float64 {
 		return gr
 	}
 
-	//
 	n_gr := 0.0
 	for _, o := range n.outputs {
 		o_gr := n.bpop(g.oper_table[n.v]) * g.backward_pass(o)

@@ -2,7 +2,7 @@
 
 Definition = When a function calls itself. Useful for divide and conquer and dynamic programming questions
 
-Time complexity = Typically `O(n)` if recurse all space, and `O(log n)` to go depth
+Time complexity = Typically `O(n)` if recurse all space, and `O(log n)` to go depth. For dynamic programming it is `O(n r)` where `r` is the time complexity of the recurrence step.
 
 Space complexity = Usually `O(n)` 
 

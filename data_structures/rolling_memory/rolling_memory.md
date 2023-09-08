@@ -32,7 +32,7 @@ for i := 1; i < len(nums); i++ {
 ```
 For rolling product in `product_except_self.go` the key idea is that you can optimise from a left and right rolling product array to just left and calculating right on the fly for `O(1)`. For matrix multiply in `num_tilings_optim.go` rather than multiplying together `n` times can instead recursively multiply `n/2` matrices together
 
-**Rolling max** = store rolling max
+**Rolling max: Kadane's** = store rolling max
 ```
 // max_sub_array.go
 for i := 1; i < len(nums); i++ {

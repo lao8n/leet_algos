@@ -2,7 +2,7 @@
 
 Definition = 1D, 2D, or 3D data structures useful for storing discrete data
 
-Time complexity = `O(n^d)` where `d` is the number of dimensions
+Time complexity = `O(n^d)` where `d` is the number of dimensions. For dynamic programming questions the time complexity is `O(n r)` where `r` is the recurrence step.
 
 Space complexity = `O(n^d)` where `d` is the number of dimensions
 

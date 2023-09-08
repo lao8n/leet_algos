@@ -38,15 +38,6 @@ sortRecursiveWithSwap(s, pivotIndex + 1, end)
 ```
 There are main approaches to sorting. Quick sort is conquer and divide because most of the work happens in the forward-pass in the partitioning function looping through values and swapping if less than or greater than a pivot. Merge sort in contrast is divide and conquer because the forward-pass partition is simply dividing the array in half, whereas the backward pass is where the sorting actually happens. `treesort.go` is similar to quick sort in the sense that the sorting occurs on the forward pass into the tree sorting where it should be placed based upon comparison
 
-**Divide and conquer: Sum**
-```
-// find_target_sum_ways.go
-positiveWays := findTargetSumWays(nums[1:], target - nums[0])
-negativeWays := findTargetSumWays(nums[1:], target + nums[0])
-return positiveWays + negativeWays
-```
-This is similar to the dynamic programming `num_ways` questions but is simple because all the numbers need to be included once, the only choice is whether to add or subtract and because we don't need any memoization. Similarly, `longest_increasing_path.go` seems like a dynamic programming question but because we do not memoize it isn't dynamic programming.
-
 **Divide and conquer: Combinations**
 ```
 // letter_combinations.go
@@ -70,7 +61,52 @@ for _, n := range getLandNeighbours(l, grid) {
 ```
 These are questions where a list of possible neighbours, usually constrained to a grid are then recursed on. If all paths need to be created then it would be necessary to backtrack, but when only looking for one as in `valid_path.go`, `topological_sort.go` or `word_search.go` it is fine to have a `visited` matrix which is updated once.
 
-**Divide and conquer accumulate**
+**Divide and conquer accumulate: Sum**
+```
+// find_target_sum_ways.go
+positiveWays := findTargetSumWays(nums[1:], target - nums[0])
+negativeWays := findTargetSumWays(nums[1:], target + nums[0])
+return positiveWays + negativeWays
+```
+This is similar to the dynamic programming `num_ways` questions but is simple because all the numbers need to be included once, the only choice is whether to add or subtract and because we don't need any memoization. Similarly, `longest_increasing_path.go` seems like a dynamic programming question but because we do not memoize it isn't dynamic programming.
+
+**Divide and conquer accumulate: Graph**
+```
+// max_depth_accumulate.go
+newDepth := depth + 1
+lDepth := maxDepthRecursion(root.Left, newDepth)
+rDepth := maxDepthRecursion(root.Right, newDepth)
+```
+We push more of the computation, in this case the depth, to the forward pass accumulating it through the recursion.
+
+**Divide and conquer accumulate: Combinations**
+```
+// letter_combinations.go
+for _, c := range digitLetterMap[digits[0]] {
+		combinations = append(combinations,
+			letterCombinationsAcc(digits[1:], accString+string(c))...)
+	}
+```
+We need to build the combination, with with the `divide_and_conquer/letter_combinations.go` implementation we built it on the backward pass, but in `divide_and_conquer_accumulate/letter_combinations` we build it on the forward pass with an `accString string` as we do with `combination_sum.go`,  Other variations involve building accumulating the solution as well `generate_parenthesis.go`. 
+
+**Divide and conquer accumulate: Neighbours**
+```
+// all_paths_source_to_target_no_backtrack.go
+path := make([]int, len(acc))
+copy(path, acc)
+path := append(path, cur)
+seen := make(map[int]bool, len(path))
+for _, node := range path {
+    seen[node] = true
+}
+for _, neighbour := range graph[cur] {
+    if _, ok := seen[neighbour]; !ok {
+        recursed := recurse(graph, neighbour, path)
+        solutions = append(solutions, recursed...)
+    }
+}
+```
+We accumulate a specific path for each recursion, but because we copy the path we negate the need to backtrack as every recursive call has its own unique path. Furthermore, we also need a new `seen` map for every recursion, therefore it is often much better to share a visited data structure and backtrack as with `all_paths_source_target.go` where after the neighbours recursion we set `seen[cur] = false`. This backtracking might take different forms, for example in `find_itinerary.go` we set `ticketMap[ticket] += 1` to backtrack. The key thing is whether the data structure for visited is shared and if it is then need to backtrack in order to generate all paths.
 
 **Dynamic programming: Summation**
 ```

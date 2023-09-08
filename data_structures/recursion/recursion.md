@@ -2,13 +2,73 @@
 
 Definition = When a function calls itself. Useful for divide and conquer and dynamic programming questions
 
-Time complexity = Typically `O(n logn)` if recurse all space
+Time complexity = Typically `O(n)` if recurse all space, and `O(log n)` to go depth
 
 Space complexity = Usually `O(n)` 
 
 **Types**
 
-**Divide and conquer**
+**Divide and conquer: Graph**
+```
+// max_depth.go
+if root == nil { return 0 }
+leftDepth := maxDepth(root.Left)
+rightDepth := maxDepth(root.Right)
+if leftDepth > rightDepth { return leftDepth + 1}
+return rightDepth + 1
+```
+Graph traversal, usually DFS, involves a base case and then a left and right branch recursion on the forward pass and returning a value on the backward pass. That might be a boolean as in `is_same_tree.go`, a specific `TreeNode` as with `lowest_common_ancestor.go` or nothing at all as with `connect_nodes.go` where instead building a graph. For non-tree graphs we need to track whether we have visited a node as with `clone_graph.go` where we `if n, seen := track[node.Val]; seen { return n }`
+
+**Divide and conquer: Search**
+```
+// top_k_frequent.go
+leftOfPivot := partition(freqSlice, left, right)
+if leftOfPivot == k { return freqSlice[:k] }
+if leftOfPivot > k { return quickSelect(freqSlice, k, left, leftOfPivot - 1) }
+return quickSelect(freqSlice, k, leftOfPivot + 1, right)
+```
+Quick select involves partitioning around a randomly chosen value, and using quick sort only for the partitioned part that the value might be in. Need to be careful, as in `find_k_largest.go` in partition function to 1. pivot to the end, 2. swap all elements to the left 3. pivot back to final place. Also, as with `find_k_largest_indirect.go` can find it faster to find the `n - k` smallest and then indirectly find the `k` largest. If the data is already sorted then can simple partition the data without needing to swap as in `rotated_search.go`
+
+**Divide and conquer: Sort**
+```
+// quicksort.go
+pivotIndex := partition(s, start, end, rand.Intn(end - start + 1) + start)
+sortRecursiveWithSwap(s, start, pivotIndex + 1)
+sortRecursiveWithSwap(s, pivotIndex + 1, end)
+```
+There are main approaches to sorting. Quick sort is conquer and divide because most of the work happens in the forward-pass in the partitioning function looping through values and swapping if less than or greater than a pivot. Merge sort in contrast is divide and conquer because the forward-pass partition is simply dividing the array in half, whereas the backward pass is where the sorting actually happens. `treesort.go` is similar to quick sort in the sense that the sorting occurs on the forward pass into the tree sorting where it should be placed based upon comparison
+
+**Divide and conquer: Sum**
+```
+// find_target_sum_ways.go
+positiveWays := findTargetSumWays(nums[1:], target - nums[0])
+negativeWays := findTargetSumWays(nums[1:], target + nums[0])
+return positiveWays + negativeWays
+```
+This is similar to the dynamic programming `num_ways` questions but is simple because all the numbers need to be included once, the only choice is whether to add or subtract and because we don't need any memoization. Similarly, `longest_increasing_path.go` seems like a dynamic programming question but because we do not memoize it isn't dynamic programming.
+
+**Divide and conquer: Combinations**
+```
+// letter_combinations.go
+lastElement := len(digits) - 1
+combinations := letterCombinations(digits[:lastElement])
+var newCombinations []string
+for _, l := range digitLetterMap[digits[lastElement]] {
+    for _, c := range combinations {
+        newCombinations = append(newCombinations, c + l)
+    }
+}
+```
+We use recursion but only along one dimension, combining an element with every combination or path already created. `permute.go` is similar where recurse with `solutionsWithoutN := permute(withoutN)` and then create `solutionsWithN` by adding `n` to each of the `solutionsWithoutN`. Other approaches rather than adding an element to every possible solution already created, instead simply append new solutions which are created separately, such as with `flatten_nested_iterator.go`. There can always be more complicated creation of new combinations such as `merge_intervals.go`
+
+**Divide and conquer: Neighbours**
+```
+// num_islands.go
+for _, n := range getLandNeighbours(l, grid) {
+    dfs(n, grid)
+}
+```
+These are questions where a list of possible neighbours, usually constrained to a grid are then recursed on. If all paths need to be created then it would be necessary to backtrack, but when only looking for one as in `valid_path.go`, `topological_sort.go` or `word_search.go` it is fine to have a `visited` matrix which is updated once.
 
 **Divide and conquer accumulate**
 
@@ -37,6 +97,7 @@ if s2[0] == s3[0] {
 memoized[key] = chooseLeft || chooseRight
 ```
 Key part is recursive section where try both paths and see if one of them is true.
+
 **Dynamic programming: Max, Min and Longest**
 ```
 // max_profit.go

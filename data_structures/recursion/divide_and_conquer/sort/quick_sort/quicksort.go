@@ -29,11 +29,11 @@ func partition(s sort.Interface, start int, end int, pivotIndex int) int {
 	return j
 }
 
-func sortRecursiveWithSwap(start int, end int) {
+func sortRecursiveWithSwap(s sort.Interface, start int, end int) {
 	if start >= end {
 		return
 	}
-	pivotIndex := partition(s, start, end, rand.Intn(last-first+1)+start)
+	pivotIndex := partition(s, start, end, rand.Intn(end-start+1)+start)
 	// we use a recursive closure rather than passing slices
 	// this is because although slices are cheap (they do not copy the underlying array)
 	// there is some overhead in constructing the slice object

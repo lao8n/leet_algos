@@ -134,7 +134,7 @@ memoized[key] = chooseLeft || chooseRight
 ```
 Key part is recursive section where try both paths and see if one of them is true.
 
-**Dynamic programming: Max, Min and Longest**
+**Dynamic programming: Max, min and longest**
 ```
 // max_profit.go
 key := fmt.Sprintf("%d %d %d", d, k, o)
@@ -162,12 +162,7 @@ redCost, blueCost, greenCost := math.MaxInt, math.MaxInt, math.MaxInt
 if red != unavailableColour {
     redCost = d.costs[houseNum][red] + d.minCostsRecursion(houseNum+1, red)
 }
-if blue != unavailableColour {
-    blueCost = d.costs[houseNum][blue] + d.minCostsRecursion(houseNum+1, blue)
-}
-if green != unavailableColour {
-    greenCost = d.costs[houseNum][green] + d.minCostsRecursion(houseNum+1, green)
-}
+...
 ```
 Minimization questions are no different where again calculate value for each option and then pick the lowest one. For `min_difficulty.go` the recursive state is also a `[][]int` but the options require a for loop to iterate through, whilst `min_cost_tickets.go` is similar to `max_profit.go` comparing between hold and buy decisions. `min_cost_climbing_stairs.go` is different in that it returns the two last step (effectively memoizing only those).
 ```
@@ -183,7 +178,7 @@ if text1[0] == text2[0] {
 ```
 These longest questions involving building longest, but do not accumulate the sequence instead embedding it in the memoized `map[string]map[string]int` assigning `memoized[text1][text2] = longest`. Similarly for `longest_increasing_path.go` we have `memoizedPaths [][]int` whereas `longest_increasing_subsequence.go` we just use `memoized []int`
 
-**Dynamic programming: Number of Ways**
+**Dynamic programming: Number of ways**
 ```
 // change_coin.go
 key := fmt.Sprintf("%d %d", len(coins), amount)

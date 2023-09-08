@@ -18,7 +18,7 @@ import "math"
 func minCostII(costs [][]int) int {
 	n := len(costs)
 	k := len(costs[0])
-	prevHouse := make([]int, k) // 3 colours
+	prevHouse := make([]int, k) // k colours
 	for i := 0; i < n; i++ {
 		currHouse := make([]int, k)
 		// find two minimum values

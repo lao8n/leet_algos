@@ -55,7 +55,7 @@ for i := 0; i < ql; i++ {
     }
 }
 ```
-Dijkstra's algorithm is an approach to finding the single shortest path from a single vertex to all other nodes of a weighted graph. It is considered greedy because it does not have to calculate all paths, instead it uses a queue (and BFS) to ensure which points are processed first (although typical implementations use a priority queue)
+Dijkstra's algorithm is an approach to finding the single shortest path from a single vertex to all other nodes of a weighted graph with non-negative weights (otherwise need to use a Bellman-ford dynamic programming approach). It is considered greedy because it does not have to calculate all paths, instead it uses a queue (and BFS) to ensure which points are processed first (although typical implementations use a priority queue)
 
 **Kahn's algorithm**
 ```

@@ -32,6 +32,19 @@ for i := 1; i < len(nums); i++ {
 ```
 For rolling product in `product_except_self.go` the key idea is that you can optimise from a left and right rolling product array to just left and calculating right on the fly for `O(1)`. For matrix multiply in `num_tilings_optim.go` rather than multiplying together `n` times can instead recursively multiply `n/2` matrices together
 
+**Rolling bitwise**
+```
+// single_number.go
+for _, num := range nums {
+	bitwiseProduct ^= num
+}
+```
+* `&` = AND operator copies a bit if it exists in both operands
+* `|` = OR operator copies a bit if it exists in either operand
+* `^` = XOR operator copies the bit if it is in one set but not both
+* `<<` = Left shift operator moves in `A << 2` A's bits left by 2 
+* `>>` = Right shift operator moves in `A >> 2` A's bits right by 2
+
 **Rolling max: Kadane's** = store rolling max
 ```
 // max_sub_array.go

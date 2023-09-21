@@ -40,7 +40,7 @@ for len(queue) != 0 {
     }
 }
 ```
-Sometimes it is necessary to track whether a node has been visited. This can either be done in processing the item off the queue or often it is better to not add it to the queue at all unless it hasn't been visited as with the above example. Examples of the former include `01_matrix.go` or `can_visit_all_rooms.go`. Examples of latter include `find_links.go` and `word_break.go``s`
+Sometimes it is necessary to track whether a node has been visited. This can either be done in processing the item off the queue or often it is better to not add it to the queue at all unless it hasn't been visited as with the above example. Examples of the former include `01_matrix.go` or `can_visit_all_rooms.go`. Examples of latter include `find_links.go`
 
 **Dijkstra's algorithm**
 ```

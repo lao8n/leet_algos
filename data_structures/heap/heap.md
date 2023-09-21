@@ -87,4 +87,4 @@ for h.Len() > 0 {
     }
 }
 ```
-To find the minimum spanning tree there are two approaches. Kruskal's adds the minimum edge they all connect. Prim's does the opposite adding only the connected edges, although greedily picking the minimum. To pick the minimum a heap is used where 
+To find the minimum spanning tree there are two approaches. Kruskal's adds the minimum edge they all connect. Prim's does the opposite adding only the connected edges, although greedily picking the minimum with a heap

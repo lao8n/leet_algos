@@ -15,4 +15,4 @@ if this.iterator.hasNext() {
     this.nextValue = this.iterator.next()
 }
 ```
-Can also use for `lru_cache.go` where least recently used is removed from the front and new values put at end but need not only next pointer but pointers to head and tail as well.
+Can also use for `lru_cache.go` where least recently used is removed from the front and new values put at end but need not only next pointer but pointers to head and tail as well. There are multiple approaches to reversing a list 1. accumulate the new list 2. swap the pointers with prev

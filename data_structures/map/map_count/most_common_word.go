@@ -10,6 +10,10 @@ import (
 // easier approach
 // 1. make banned a set and only push store counts if word not banned
 // 2. another for loop to get highest - could do it in a single pass as well
+
+// could do it with one pass where with regex
+// re := regexp.MustCompile(`[\w]+`)
+
 func mostCommonWord(paragraph string, banned []string) string {
 	// paragraph preprocessing
 	ps := paragraphSlice(paragraph)

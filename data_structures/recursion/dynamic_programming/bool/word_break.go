@@ -2,7 +2,7 @@ package data_structures
 
 // problem : how do we know whether to partition cats as cat or cats?
 // brute force recursion : string of length n can be split into two parts n+1 ways, so choice of split or not 2^n, space complexity O(n)
-// time complexity O(n^3) - size of recursion tree can go up to n^2,
+// time complexity O(n m k ) - size of recursion tree can go up to n^2,
 // space complexity O(n) - depth of recursion tree can go up to n
 func wordBreak(s string, wordDict []string) bool {
 	memoizedWords := make(map[string]bool)

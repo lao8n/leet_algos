@@ -2,6 +2,11 @@ Constants
 ```
 math.Pi
 ```
+math.Floor()
+math.Ceil
+```
+
+```
 Random
 ```
 import "math/rand"

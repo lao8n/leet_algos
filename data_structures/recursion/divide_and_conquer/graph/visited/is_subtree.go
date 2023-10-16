@@ -14,7 +14,7 @@ const MOD_2 = 2147483647
 // hashing approach
 // if nil -> hash it to 3 (any prime is fine)
 // else -> shift hash value of left node by fixed value, and right value by 1 then sum and add to node.val to get new hash
-
+// core of calculation is (left << p1) + (right << 1) + node.Val
 // to avoid minimum spurious hits we hash twice to two different values
 func isSubtree(root *TreeNode, subRoot *TreeNode) bool {
 	h := Hashes{visited: make(map[HashPair]bool)}

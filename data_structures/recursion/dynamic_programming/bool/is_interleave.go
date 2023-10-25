@@ -1,7 +1,5 @@
 package data_structures
 
-import "fmt"
-
 // interconnected problems -> combined for a solution -> dynamic programming
 
 // 2 approaches to dp
@@ -23,7 +21,6 @@ func isInterleave(s1 string, s2 string, s3 string) bool {
 
 	memoized := make(map[string]bool, len(s1)*len(s2))
 	result := isInterleaveRecursive(memoized, s1, s2, s3)
-	fmt.Println(memoized)
 	return result
 }
 

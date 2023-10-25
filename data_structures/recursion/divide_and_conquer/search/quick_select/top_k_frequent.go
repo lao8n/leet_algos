@@ -1,7 +1,6 @@
 package data_structures
 
 import (
-	"fmt"
 	"math/rand"
 )
 
@@ -26,7 +25,6 @@ func topKFrequent(nums []int, k int) []int {
 	// quick select O(n) average
 	freqs := quickSelect(freqSlice, k, 0, len(freqSlice)-1)
 	result := make([]int, len(freqs))
-	fmt.Println(freqs)
 	for i := 0; i < len(freqs); i++ {
 		result[i] = freqs[i].value
 	}

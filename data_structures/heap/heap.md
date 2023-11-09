@@ -7,7 +7,7 @@ Approaches for Kth largest element
 * 2. Min heap of size k -> only insert if larger than minimum (harder with negative numbers)
 * 3. Max heap of size n -> remove k elements
 
-Time complexity = Creation of a heap is `O(n)` because rather than inserting all the elements one-on-one one can heapify. Insertion of individual elements is `O(logn)`. Max/min are be `O(1)`
+Time complexity = Creation of a heap is `O(n)` because rather than inserting all the elements one-on-one one can heapify. Insertion of individual elements is `O(logn)`. Max/min is `O(1)` although fixing the tree is `O(logn)`
 
 Space complexity = `O(n)` for all the elements in the heap
 

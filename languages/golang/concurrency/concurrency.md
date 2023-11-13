@@ -24,6 +24,10 @@ Buffered channels
 ```
 ch = make(chan string, 3)
 ```
+Implementation under the hood
+```
+```
+
 Wait groups
 ```
 var wg sync.WaitGroup
@@ -40,7 +44,7 @@ select {
     default:
 }
 ```
-Mutex - easiet thatn using a channel with single buffered amount of acquiring and releasing token
+Mutex - easier thatn using a channel with single buffered amount of acquiring and releasing token
 ```
 mu sync.Mutex
 mu.Lock()

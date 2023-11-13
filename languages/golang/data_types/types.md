@@ -111,3 +111,7 @@ func SumIntsOrFloats[K comparable, V int64 | float64](m map[K]V) V {
     return s
 }
 ```
+
+Map
+- how implemented in Golang
+- are they concurrency safe?

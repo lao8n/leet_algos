@@ -69,6 +69,8 @@ ages["bob"] = 7
 if age, ok := ages["bob"]; !ok { ... }
 ```
 Note cannot compare maps to each other with equals
+Maps are implemented as hash tables with linked lists for collisions.
+Not safe concurrenlty - need to add mutex wrapper
 
 Structs
 ```
@@ -111,7 +113,3 @@ func SumIntsOrFloats[K comparable, V int64 | float64](m map[K]V) V {
     return s
 }
 ```
-
-Map
-- how implemented in Golang
-- are they concurrency safe?

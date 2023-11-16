@@ -4,30 +4,6 @@ go echo(c, input.Text(), 1 *time.Second)
 go func() { ... }()
 ```
 
-Channels
-```
-ch := make(chan int)
-ch <- x // send x
-x = <- ch // receive x
-close(ch)
-```
-Unidirectional channels
-```
-func squarer(out chan<- int, in <-chan int) {
-    for v := range in {
-        out <- v * v
-    }
-    close(out)
-}
-```
-Buffered channels
-```
-ch = make(chan string, 3)
-```
-Implementation under the hood
-```
-```
-
 Wait groups
 ```
 var wg sync.WaitGroup

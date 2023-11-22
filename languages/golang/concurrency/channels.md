@@ -18,6 +18,7 @@ Buffered channels
 ```
 ch = make(chan string, 3)
 ```
+![Primitives vs channels decision tree](channels_vs_primitives.png)
 
 Select
 ```

@@ -1,6 +1,13 @@
 ```
 var wg sync.WaitGroup
+wg.Add(1)
+go func(){
+    defer wg.Done()
+    // do something
+}()
+wg.Wait()
 ```
+Implemented as a counter where the method blocks until the wait group counter is 0.
 
 Specialized map safe for concurrent access
 ```

@@ -1,11 +1,12 @@
-Channels
+***Channels***
 ```
 ch := make(chan int)
 ch <- x // send x
 x = <- ch // receive x
 close(ch)
 ```
-Unidirectional channels
+
+***Unidirectional channels***
 ```
 func squarer(out chan<- int, in <-chan int) {
     for v := range in {
@@ -14,7 +15,8 @@ func squarer(out chan<- int, in <-chan int) {
     close(out)
 }
 ```
-Buffered channels
+
+***Buffered channels***
 ```
 ch = make(chan string, 3)
 ```
@@ -29,7 +31,7 @@ select {
 }
 ```
 
-Internal representation
+***Internal representation***
 * Channels are used for communication between goroutines and can be used to send and receive values enabling synchronization and data exchange.
 * Two main types 1. Unbuffered: block the sending goroutine until the other goroutine receives the value 2. buffered channels have capacity and only block when the buffer is full (on send) or empty (on receive)
 

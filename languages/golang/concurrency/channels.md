@@ -4,8 +4,23 @@ ch := make(chan int)
 ch <- x // send x
 x = <- ch // receive x
 close(ch)
+x, ok = ch // ok is false if closed
 ```
-
+```
+func rangeExample(){
+	intStream := make(chan int)
+	go func intData(){
+		defer close(intStream)
+		for i := 0; i < 5; i++ {
+			intStream <- i 
+		}
+	}
+	for v := range intStream { // automatically stops when gets to close stream
+		fmt.Println(v)
+	}
+    // can use this as a way to unblock multiple goroutines simultaneously. 
+}
+```
 ***Unidirectional channels***
 ```
 func squarer(out chan<- int, in <-chan int) {
@@ -27,9 +42,12 @@ Select
 select {
     case <- ch1: 
     case x := <- ch2:
-    default:
+    case <- time.After(1 * time.Second): // elegant way to do timeout
+        fmt.Println("timed out") 
+    default: // only use in for-select loop to keep making progress
 }
 ```
+Go runtime will try to read uniformly from all the channels in the select statement.
 
 ***Internal representation***
 * Channels are used for communication between goroutines and can be used to send and receive values enabling synchronization and data exchange.

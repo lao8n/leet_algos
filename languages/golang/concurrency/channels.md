@@ -21,6 +21,19 @@ func rangeExample(){
     // can use this as a way to unblock multiple goroutines simultaneously. 
 }
 ```
+Lexical scoping 
+```
+func channelOwner() <- chan int {
+    c := make(chan int, 5) // write all to buffer then exit
+    go func(){
+        defer close(c)
+        for i := 0; i < 5; i++ {
+            c <- i
+        }
+    }()
+    return c
+}
+```
 ***Unidirectional channels***
 ```
 func squarer(out chan<- int, in <-chan int) {
@@ -48,6 +61,36 @@ select {
 }
 ```
 Go runtime will try to read uniformly from all the channels in the select statement.
+
+***Or channels***
+```
+var or func(channels ...<- chan interface{}) <- chan interface{}
+```
+Combine channels into one. 
+
+Consider writing helper functions to make code easier to read such as or-done channel wrapper on page 120.
+
+***Fan-in/fan-out***
+If one part of your pipeline is computationally slow can have multiple goroutines read from the same channel or can 
+have multiple goroutines write to the same channel. 
+Fanning out = Implementation just create multiple versions of that goroutine that reads from that channel. 
+Fanning in = Just use select statement
+
+***Tee channel***
+```
+for val := range orDone(done, in) {
+    var out1, out2 = out1, out2
+    for i := 0; i < 2; i++ { // non-blocking iterations 
+        select {
+            case <- done:
+            case out1 <- val:
+                out1 = nil
+            case out2 <- val
+                out2 = nil
+        }
+    }
+}
+```
 
 ***Internal representation***
 * Channels are used for communication between goroutines and can be used to send and receive values enabling synchronization and data exchange.

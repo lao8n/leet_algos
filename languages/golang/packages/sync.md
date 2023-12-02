@@ -68,7 +68,7 @@ clickRegisted.Wait()
 ```
 ***Once*** 
 
-ensures somethign is only called once even on different goroutines. 
+ensures something is only called once even on different goroutines. 
 ```
 var once sync.Once
 var increments sync.WaitGroup

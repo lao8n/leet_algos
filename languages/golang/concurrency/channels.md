@@ -91,6 +91,11 @@ for val := range orDone(done, in) {
     }
 }
 ```
+***Bridge channel***
+```
+<- chan <- chan interface{}
+```
+Destructuring the channel of channels into a simple channel is called bridging.
 
 ***Internal representation***
 * Channels are used for communication between goroutines and can be used to send and receive values enabling synchronization and data exchange.

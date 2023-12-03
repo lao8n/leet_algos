@@ -35,3 +35,15 @@ for i := 0; i < 3; i++ {
 }
 close(done)
 ```
+
+Fair-scheduling = doesn't work because fork-join model means there are dependencies and so likely to be many processors that are underutilized.
+Centralized queue = doesn't work because have memory access synchronization problems and cache locality problems
+Decentralized work queues = each processor has enqueue and dequeue but still have cache locality problem and context switching
+Work-stealing = 
+1. at fork point add tasks to tail of the deque associated with the thread
+2. if the thread is idle steal work from the head of the deque associated with another thread
+3. waiting at a join point pop work off the tail of th thread's own deque
+4. if thread's deque is empty either stall at join or steal work from the head of a random thread's associated deque
+Two advantages because work on tail of own deque 1. most likely work needed to complete the parent's join 2. most likely to still
+be in the processor's cache
+Two types of work 1. tasks = goroutines 2. continuations = after a goroutine. Go runtime actually steals continuations because usually want to start work on new goroutine immediately so only idle threads should take continuations. 

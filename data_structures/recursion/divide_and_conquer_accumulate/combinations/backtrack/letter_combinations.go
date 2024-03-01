@@ -41,8 +41,8 @@ func (d *data) backtrack(i int, path string) {
 	// recursive case
 	digit := d.digits[i]
 	for _, char := range d.digitsMap[string(digit)] {
-		path += string(char)
-		d.backtrack(i+1, path)
-		path = path[:len(path)-1]
+		// path += string(char)
+		d.backtrack(i+1, path += string(char))
+		// path = path[:len(path)-1]
 	}
 }

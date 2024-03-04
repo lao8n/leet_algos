@@ -13,7 +13,7 @@ func letterCombinations(digits string) []string {
 		} else {
 			for _, l := range digitLetterMap[d] { // l = "a"
 				for _, c := range combinations {
-					newCombinations = append(newCombinations, c+l)
+					newCombinations = append(newCombinations, c+l) // using strings is actually better as []byte as modify in place
 				}
 			}
 			combinations = newCombinations

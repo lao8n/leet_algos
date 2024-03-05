@@ -17,12 +17,8 @@ import "container/heap"
 func topKFrequent(nums []int, k int) []int {
 	// O(n) get frequencies
 	hMap := make(map[int]int, len(nums))
-	for i := 0; i < len(nums); i++ {
-		if n, ok := hMap[nums[i]]; ok {
-			hMap[nums[i]] = n + 1
-		} else {
-			hMap[nums[i]] = 1
-		}
+	for _, num := range nums {
+		hMap[num]++
 	}
 	// O(n) heapify
 	h := make(Heap, len(hMap))

@@ -8,11 +8,11 @@ package data_structures
 func sortColors(nums []int) {
 	redPointer, bluePointer := 0, len(nums)-1
 	for i := 0; i < len(nums); {
-		if nums[i] == 0 && i >= redPointer {
+		if nums[i] == 0 && i >= redPointer { // need == to keep red pointer up to date.
 			nums[i], nums[redPointer] = nums[redPointer], nums[i]
 			redPointer++
 			i++
-		} else if nums[i] == 2 && i <= bluePointer {
+		} else if nums[i] == 2 && i < bluePointer {
 			nums[i], nums[bluePointer] = nums[bluePointer], nums[i]
 			bluePointer--
 		} else {

@@ -14,6 +14,9 @@ import (
 // approaches
 // * map of letters and costs where choose the smallest cost everytime,
 // * create a heap where minimization function is 1. smallest cost in string so far 2.
+
+// specifics
+// actually can completley remove cost entirely - cost doesn't matter just count is sufficient
 func minimizeStringValue(s string) string {
 	// setup map
 	m := make([]int, 26) // map of counts

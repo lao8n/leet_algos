@@ -3,11 +3,11 @@
 Definition = A priority queue is an abstract data type where element has a priority associated with it, where elements with high priority are served before elements with low-priority. Implementations of priority queues are usually with heaps
 
 Approaches for Kth largest element
-* 1. Min heap of size n -> remove n-k elements (equivalently until heap of size k) -> kth largest
-* 2. Min heap of size k -> only insert if larger than minimum (harder with negative numbers)
-* 3. Max heap of size n -> remove k elements
+* 1. Min heap of size n -> remove n-k elements (equivalently until heap of size k) -> kth largest. Heapify O(n), Pop O((n - k) logn)
+* 2. Min heap of size k -> only insert if larger than minimum (harder with negative numbers). Heapify O(k), Push remaining O((n - k) logk), Pop O(logk)
+* 3. Max heap of size n -> remove k elements. Heapify O(n), Pop(k logn)
 
-Time complexity = Creation of a heap is `O(n)` because rather than inserting all the elements one-on-one one can heapify. Insertion of individual elements is `O(logn)`. Max/min is `O(1)` although fixing the tree is `O(logn)`
+Time complexity = Creation of a heap is `O(n)` because rather than inserting all the elements one-on-one one can heapify where you build the heap bottom up reducing the number of swaps. Insertion of individual elements is `O(logn)`. Max/min is `O(1)` although fixing the tree is `O(logn)`
 
 Space complexity = `O(n)` for all the elements in the heap
 

@@ -12,11 +12,11 @@ func subsets(nums []int) [][]int {
 		return [][]int{[]int{}}
 	}
 	// recursive case - loop over solutions but only add one value at a time
-	solutions := subsets(nums[1:])
+	solutions := subsets(nums[:len(nums)-1])
 	for _, s := range solutions {
 		newS := make([]int, len(s))
 		copy(newS, s)
-		solutions = append(solutions, append(newS, nums[0]))
+		solutions = append(solutions, append(newS, nums[len(nums)-1]))
 	}
 	return solutions
 }

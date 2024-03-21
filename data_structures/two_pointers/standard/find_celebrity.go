@@ -14,7 +14,7 @@ func solution(knows func(a int, b int) bool) func(n int) int {
 	return func(n int) int {
 		possCeleb, i, checkCount := 0, 1, 0
 		// for every poss celeb need to check it with the next n
-		for i < 2*n && checkCount < n {
+		for i < 2*n && checkCount < n { // better to do it in two separate steps 1. candidate 2. verify
 			if i%n == possCeleb%n {
 				checkCount++
 			} else if knows(i%n, possCeleb%n) && !knows(possCeleb%n, i%n) {

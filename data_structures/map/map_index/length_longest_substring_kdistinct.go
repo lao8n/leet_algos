@@ -6,7 +6,7 @@ package data_structures
 
 // specifics
 // * what to do when > k distinct characters? have to jump to +1 of latest location of that letter.. for new starting point
-
+// * maybe better to do it with counts rather than indices
 // counter-example
 // * abaccc - valid answer is accc for length 4 with k = 2 - rather than deleting all elements we should only delete enough to get len(distinctChars) <= k
 func lengthOfLongestSubstringKDistinct(s string, k int) int {

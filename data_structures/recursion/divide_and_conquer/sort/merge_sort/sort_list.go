@@ -12,7 +12,7 @@ package data_structures
 // 2. iterate through linked list and do an insertion sort O(n^2)
 // 3. some variation of quick or merge sort i.e. recursively - how split up? need to know lengths.. merge sort is divide and conquer i.e. work is done on the merging
 func sortList(head *ListNode) *ListNode {
-	// find len
+	// find len - rather than finding len could use fast and slow pointer to find mid
 	length := 0
 	cur := head
 	for cur != nil {

@@ -24,7 +24,7 @@ for len(queue) > 0 {
     }
 }
 ```
-`level_order.go` is a good example of standard BFS with the added twist of retaining level information, which can be done with a single queue where you use the trick of taking the size of the queue, iterating over that size, but still appending to the end. Other variations like `num_squares.go` iterate over perfect squares, or `all_paths_source_target.go` over neighbours, or `connect_nodes.go` over left and right nodes rather than children but the principal is the same. 
+`level_order.go` is a good example of standard BFS with the added twist of retaining level information, which can be done with a single queue where you use the trick of taking the size of the queue, iterating over that size, but still appending to the end. Other variations like `num_squares.go` iterate over perfect squares, or `all_paths_source_target.go` over neighbours, or `connect_nodes.go` over left and right nodes rather than children but the principal is the same. Time complexity if O(V + E)
 
 **BFS with visited**
 ```

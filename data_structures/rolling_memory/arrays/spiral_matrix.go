@@ -1,5 +1,4 @@
 func spiralOrder(matrix [][]int) []int {
-	// we use dynamic programming and recursion
 	if len(matrix) == 0 {
 		return []int{}
 	} else if len(matrix) == 1 {

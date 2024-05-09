@@ -3,6 +3,10 @@ package data_structures
 // approach
 // * recurse through string from start to finish
 // * when reach * have two recursions one is where move to next and the other where stay on star
+
+// pruning idea
+// * if we try to skip the * with recursive(s, p[1:]) we do not need to try later *s,
+// because if it didn't work with first * it won't work now
 func isMatch(s string, p string) bool {
 	var lastStar bool
 	var recursive func(s, p string) bool

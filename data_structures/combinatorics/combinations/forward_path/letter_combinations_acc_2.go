@@ -4,26 +4,6 @@ package data_structures
 // solution 1: recurse forward, acc string and append to pointer
 // solution 2: recurse backwards, acc string
 func letterCombinations(digits string) []string {
-	combinations := []string{}
-	if len(digits) == 0 {
-		return combinations
-	}
-	letterCombinationsAcc(digits, "", &combinations)
-	return combinations
-}
-
-func letterCombinationsAcc(digits string, accString string, combinations *[]string) {
-	// base case
-	if digits == "" {
-		*combinations = append(*combinations, accString)
-		return
-	}
-	for _, c := range digitLetterMap[digits[0]] {
-		letterCombinationsAcc(digits[1:], accString+string(c), combinations)
-	}
-}
-
-func letterCombinations(digits string) []string {
 	return letterCombinationsAcc(digits, "")
 }
 

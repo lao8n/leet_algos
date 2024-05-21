@@ -5,7 +5,7 @@ import "sort"
 func kthSmallest(matrix [][]int, k int) int {
 	i, j := matrix[0][0], matrix[len(matrix)-1][len(matrix[0])-1]
 	for i < j {
-		mid := i + (j-i)/2
+		mid := i + (j-i)/2 // (i + j) / 2 doesn't work
 		if smallerCount(matrix, mid) < k {
 			i = mid + 1
 		} else {

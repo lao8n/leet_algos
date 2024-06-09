@@ -10,6 +10,8 @@ package data_structures
 // might as well have 1-d
 // * can i work out from k = 0 seq ending at i seq ending at i + 1?
 // * everytime you add a new element - you compare it to all previous elements and whether it adds a k and max subsequence length
+// specifics
+// * dp[i][j] represents the longest streak up to index i but not necessarily including index i and j
 func maximumLength(nums []int, k int) int {
 	n := len(nums)
 	if n == 0 {
@@ -21,7 +23,7 @@ func maximumLength(nums []int, k int) int {
 		dp[i] = make([]int, k+1)
 	}
 	for i := 0; i < n; i++ {
-		dp[i][0] = 1 // k = 0 and include nums[i]
+		dp[i][0] = 1
 	}
 
 	res := 1

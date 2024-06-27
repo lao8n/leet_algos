@@ -7,7 +7,7 @@ func isPalindrome(x int) bool {
 
 	revertedNumber := 0
 	for x > revertedNumber {
-		revertedNumber = revertedNumber*10 + x%10
+		revertedNumber = revertedNumber*10 + x%10 // extract smallest
 		x = x / 10
 	}
 	return x == revertedNumber || x == revertedNumber/10

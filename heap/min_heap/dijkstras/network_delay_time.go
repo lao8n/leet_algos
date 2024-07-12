@@ -28,7 +28,6 @@ func networkDelayTime(times [][]int, n int, k int) int {
 
 	// create heap with node 1 neighbours
 	h := make(Heap, len(adjList[k]))
-	heap.Init(&h)
 	copy(h, adjList[k])
 	heap.Init(&h)
 

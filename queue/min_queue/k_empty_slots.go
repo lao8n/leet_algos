@@ -1,7 +1,6 @@
 package data_structures
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -41,7 +40,6 @@ func kEmptySlots(bulbs []int, k int) int {
 				minQueue = minQueue[1:]
 			}
 			// [r-k]... k in between...[r + 1]
-			fmt.Println(minQueue, days[r-k], days[r])
 			if k == 0 || minQueue[0] > days[r-k] && minQueue[0] > days[r+1] {
 				numDays = min(numDays, max(days[r-k], days[r+1]))
 			}

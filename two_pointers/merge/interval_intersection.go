@@ -29,13 +29,6 @@ func intervalIntersection(firstList [][]int, secondList [][]int) [][]int {
 	return intersection
 }
 
-func next(interval int, startEnd int) (int, int) {
-	if startEnd == 0 {
-		return interval, 1
-	}
-	return interval + 1, 0
-}
-
 func max(x, y int) int {
 	if x > y {
 		return x

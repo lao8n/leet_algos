@@ -1,10 +1,3 @@
-package data_structures
-
-import (
-	"strconv"
-	"strings"
-)
-
 // q: how handle leap years? i don't know when leap years are - every year divisible by 4 is a leap year i.e. one more day for february
 // q: can we go in both directions i.e. date2 > and < than date 1 - yes
 // approach: split components convert to nums..

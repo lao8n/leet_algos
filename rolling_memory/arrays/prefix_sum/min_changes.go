@@ -1,7 +1,3 @@
-package data_structures
-
-import "math"
-
 // clarifying questions
 // * n even
 // * replace any element with 0-k
@@ -44,11 +40,4 @@ func abs(x int) int {
 		return -x
 	}
 	return x
-}
-
-func min(x, y int) int {
-	if x < y {
-		return x
-	}
-	return y
 }

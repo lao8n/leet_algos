@@ -13,7 +13,7 @@ class BoundedBlockingQueue(object):
 
     # enqueue_lock: can only acquire if queue not full and not in use
     def enqueue(self, element: int) -> None:
-        self.enqueue_lock.acquire()
+        self.enqueue_lock.acquire() # blocking call, non-blocking if did self.enqueue_lock.acquire(False)
         self.queue.append(element) # with deque this is atomic
         if len(self.queue) < self.capacity:
             self.enqueue_lock.release()

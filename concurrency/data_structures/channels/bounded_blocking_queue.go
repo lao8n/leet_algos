@@ -1,11 +1,12 @@
-package main
+// package main
+package data_structures
 
 import (
 	"fmt"
 	"time"
 )
 
-// package data_structures
+// a channel is a bounded blocking queue
 type BoundedBlockingQueue struct {
 	queue chan int
 }

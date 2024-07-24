@@ -3,6 +3,7 @@
 // this approach uses one condition per state
 // tradeoff is that could wake up goroutine that is not waiting for that condition
 // advantage is that only one condition
+// no benefit to RW mutex because all calls are writes
 package data_structures
 
 import (

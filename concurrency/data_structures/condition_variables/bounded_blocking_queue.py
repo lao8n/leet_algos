@@ -10,7 +10,7 @@ class BoundedBlockingQueue(object):
 
     def enqueue(self, element: int) -> None:
         with self.c: # context managers handle setup and tear down
-            self.c.wait_for(lambda: len(self.q) < self.capacity) # better than polling
+            self.c.wait_for(lambda: len(self.q) < self.capacity) # better than polling, but still involves thread being woken up
             self.q.append(element)
             self.c.notify_all() # only two threads so notify is fine
 

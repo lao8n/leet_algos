@@ -11,7 +11,7 @@ func minScoreTriangulation(values []int) int {
 	return dfs(values, 0, len(values)-1, dp)
 }
 
-func dfs(values []int, i int, j int, dp [][]int) int {
+func dfs(values []int, i, j int, dp [][]int) int {
 	// base case
 	if j-1 < 2 {
 		return 0
@@ -30,7 +30,10 @@ func dfs(values []int, i int, j int, dp [][]int) int {
 	for k := i + 1; k < j; k++ {
 		ll := dfs(values, i, k, dp)
 		rr := dfs(values, k, j, dp)
-		lowestScore = min(lowestScore, ll+rr+values[i]*values[j]*values[k])
+		score := ll + rr + values[i]*values[j]*values[k]
+		if score < lowestScore {
+			lowestScore = score
+		}
 	}
 	dp[i][j] = lowestScore
 	return lowestScore

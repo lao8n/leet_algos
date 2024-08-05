@@ -31,10 +31,10 @@ func dfs(values []int, i, j int, dp [][]int) int {
 	// recursive case
 	lowestScore := math.MaxInt
 	for k := i + 1; k < j; k++ {
-		// try having a triangle with k
-		ll := dfs(values, i, k, dp)
-		rr := dfs(values, k, j, dp)
-		lowestScore = min(lowestScore, ll+rr+values[i]*values[j]*values[k])
+		// given i & j we try every possible triangle where k is the third poinrt
+		ll := dfs(values, i, k, dp)                                         // left polygon
+		rr := dfs(values, k, j, dp)                                         // right polygon
+		lowestScore = min(lowestScore, ll+rr+values[i]*values[j]*values[k]) // triangle we have created
 	}
 	dp[i][j] = lowestScore
 	return lowestScore
